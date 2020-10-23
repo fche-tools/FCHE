@@ -1,0 +1,1062 @@
+God Class: 22
+          classAttributeNotationUml
+          classUmlFactoryMDRImpl
+          classProjectBrowser
+          classOperationNotationUml
+          classRESequenceDiagramDialog
+          classCoreFactoryMDRImpl
+          classFacadeMDRImpl
+          classProject
+          classSequenceDiagramGraphModel
+          classFigNodeModelElement
+          classMessageNotationUml
+          classNotationUtilityUml
+          classModeller
+          classCoreHelperMDRImpl
+          classModelManagementHelperMDRImpl
+          classToDoItem
+          classUMLMutableGraphSupport
+          classFigDataType
+          classFigInterface
+          classFigEdgeModelElement
+          classStateBodyNotationUml
+          classTransitionNotationUml
+	
+          6
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Cyclic Dependencies: 60
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.api
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.configuration
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.events
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.helpers
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.modules
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.i18n
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.kernel
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.moduleloader
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ocl
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.persistence
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.explorer
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.targetmanager
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.activity.layout
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.activity.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.collaboration
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.sequence
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.sequence.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.state
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.state.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.static_structure
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.static_structure.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.generator
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.generator.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.foundation.core
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.foundation.extension_mechanisms
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.util
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.explorer.rules
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive.checklist
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng.java
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.common_behavior
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.state_machines
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.cmd
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.collaboration.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.use_case.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation.uml
+          subsystemsubsystem_ArgoUML (0)/argouml-php/src.org.argouml.language.php
+          subsystemsubsystem_ArgoUML (0)/argouml-php/src.org.argouml.language.php.generator
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.deployment.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation.java
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.activity_graphs
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.collaborations
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.use_cases
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.model_management
+	
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+Sibling Duplication: 72
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodWizStepChoice(Wizard w, String instr, Vector ch)
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttribute) : _unknown_type
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodgenerateAction(Object m) : String
+          methodgenerateAction(Object m) : String
+          methodgenerateAction(Object m) : String
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodWizStepManyTextFields(Wizard w, String instr, Vector strings)
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodinitMainPanel() : void
+          methodWizStepConfirm()
+          methodWizStepTextField()
+          methodWizStepCue(Wizard w, String cue)
+          methodinitMainPanel() : void
+          methoddoSave(Project project, File file) : void
+          methoddoSave(Project project, File file) : void
+          methodaddNodeRelatedEdges(Object node) : void
+          methodsetBoundsImpl(int x, int y, int w, int h) : void
+          methodsetBoundsImpl(int x, int y, int w, int h) : void
+          methodsetBoundsImpl(int x, int y, int w, int h) : void
+          methodsetBoundsImpl(int x, int y, int w, int h) : void
+          methodaddNodeRelatedEdges(Object node) : void
+          methodProjectSettingsTabProperties()
+          methodSettingsTabUser()
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodupdateStereotypeText() : void
+          methodcanAddEdge(Object edge) : boolean
+          methodgetClosestPoint(Point anotherPt) : Point
+          methodgetClosestPoint(Point anotherPt) : Point
+          methodcanAddEdge(Object edge) : boolean
+          methodcanAddEdge(Object edge) : boolean
+          methodgetPopUpActions(MouseEvent me) : Vector
+          methodgetPopUpActions(MouseEvent me) : Vector
+          methodupdateStereotypeText() : void
+          methodupdateListeners(Object oldOwner, Object newOwner) : void
+          methodhitHandle(Rectangle r, Handle h) : void
+          methodgetPopUpActions(MouseEvent me) : Vector
+          methodupdateListeners(Object oldOwner, Object newOwner) : void
+          methodgetPopUpActions(MouseEvent me) : Vector
+          methodcanAddEdge(Object edge) : boolean
+          methodhitHandle(Rectangle r, Handle h) : void
+          methodparse(String text) : String
+          methodparse(String text) : String
+          methodisValidEvent(PropertyChangeEvent e) : boolean
+          methodisValidEvent(PropertyChangeEvent e) : boolean
+          methodbuildModelList() : void
+          methodbuildModelList() : void
+          methodplaceElements() : void
+          methodplaceElements() : void
+	
+          8
+          8
+          8
+          8
+          8
+          8
+          8
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Blob Operation: 62
+          methodparseMessage(Object mes, String s) : void
+          methodparseOperation(String s, Object op) : void
+          methodparseAttribute(String text, Object attribute) : void
+          methodmNUM_INT(boolean _createToken) : void
+          methodgenerateClassifier(Object cls) : String
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodgenerateClassifierOperations(Object modelElement) : String
+          methodmain(String args) : void
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodgenerateClassifierBody(Object cls) : StringBuffer
+          methodnavigateQualified(String name, Type[] qualifiers) : _unknown_type
+          methodconvertValueToText(Object value, boolean selected, boolean expanded, boolean leaf, int row, boolean hasFocus) : String
+          methodExplorerPopup(Object selectedItem, MouseEvent me)
+          methodmouseReleased(MouseEvent me) : void
+          methodactionPerformed(ActionEvent e) : void
+          methodparseClassifierRole(Object cls, String s) : Object
+          methodparseModelElement(Object me, String text) : void
+          methodparseObjectFlowState2(Object objectFlowState, String s) : Object
+          methodparseCallState(Object callState, String s1) : Object
+          methodparseParamList(Object op, String param, int paramOffset) : void
+          methodgenerateFilesForElem(Object o, String path, boolean deps) : Collection
+          methodgenerateFile2(Object cls, String path) : String
+          methodgenerateConstraintEnrichedDocComment(Object me) : String
+          methodgenerateOperation(Object modelElement, boolean bAddDocs) : String
+          methodgenerateRequired(Object modelElement) : String
+          methodbuildAssociationEnd(Object assoc, String name, Object type, Object multi, Object stereo, boolean navigable, Object order, Object aggregation, Object scope, Object changeable, Object visibility) : Object
+          methoddelete(Object elem) : void
+          methodgenerateOperation(Object op, boolean documented) : String
+          methodgenerateConstraintEnrichedDocComment(Object me, boolean documented, String indent) : String
+          methoddrop(DropTargetDropEvent dropTargetDropEvent) : void
+          methodconnect(Object fromPort, Object toPort, Object edgeType) : Object
+          methodsetBoundsImpl(int x, int y, int w, int h) : void
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttribute) : _unknown_type
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methodparseTrigger(Object trans, String trigger) : void
+          methodparseRole(Object role, String text) : void
+          methodaddDocumentationTag(Object modelElement, String sJavaDocs) : void
+          methodqualifiedItemIs(int lookahead_offset) : BitSet
+          methodgenerateAttribute(Object attr, boolean documented) : String
+          methodparse(InputSource pIs, boolean profile) : Collection
+          methodgenerateFile2(Object modelElement, String path) : String
+          methoddoSave(Project project, File file) : void
+          methodloadProject(File file, boolean showUI) : boolean
+          methodsignaturesMatch(Object op1, Object op2) : boolean
+          methodgen(Object o) : Enumeration
+          methodgetFigNodeFor(Object node, int x, int y, Map styleAttributes) : _unknown_type
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methodcanAddEdge(Object edge) : boolean
+          methodmouseReleased(MouseEvent me) : void
+          methodcanAddEdge(Object edge) : boolean
+          methodaddNodeRelatedEdges(Object node) : void
+          methodaddImport(String name) : void
+          methodsetData(String sData, EditingUtilities euHelper) : void
+          methodcreatePanels(SplashScreen splash) : Component
+          methoddragOver(DropTargetDragEvent dropTargetDragEvent) : void
+          methodgetPopUpActions(MouseEvent me) : Vector
+          methodgetConfigPanel(Import importInstance) : JComponent
+          methodget(String name) : Object
+          methodaddOperation(short modifiers, String returnType, String name, Vector parameters, String javadoc) : Object
+          methodaddAttribute(short modifiers, String typeSpec, String name, String initializer, String javadoc) : void
+          methoddoLoad(File file) : Project
+          methodtrySave(boolean overwrite, File file) : boolean
+	
+          8
+          7
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+Internal Duplication: 91
+          methoddirect_declarator() : void
+          methoddeclarator_suffixes() : void
+          methodfunction_direct_declarator() : void
+          methodabstract_declarator_suffix() : void
+          methoditeration_statement() : void
+          methodpostfix_expression() : void
+          methodconversion_function_decl_or_def() : void
+          methodctor_declarator() : void
+          methodsuperclass_init() : void
+          methodabstract_declarator() : void
+          methodjump_statement() : void
+          methodnew_initializer() : void
+          methoddeclaration_specifiers() : void
+          methodcompound_statement() : void
+          methodlinkage_specification() : void
+          methodinitializer() : void
+          methodthrow_statement() : void
+          methodnew_expression() : void
+          methoddelete_expression() : void
+          methodargList() : void
+          methodforIter() : void
+          methodexternal_declaration() : void
+          methoddeclaration() : void
+          methodmember_declaration() : void
+          methodpostfixExpression() : void
+          methodannotation() : void
+          methodannotationMemberValueInitializer() : void
+          methodannotationMemberArrayInitializer() : void
+          methodannotationMemberArrayValueInitializer() : void
+          methodenumConstantField() : void
+          methodstatement() : void
+          methodinitializer() : void
+          methodarrayInitializer() : void
+          methodforCond() : void
+          methodpostfixExpression() : void
+          methodnewExpression() : void
+          methodnewArrayDeclarator() : void
+          methodenum_specifier() : void
+          methodinitializer() : void
+          methodarrayInitializer() : void
+          methodstatement() : void
+          methodforCond() : void
+          methodforIter() : void
+          methodnewExpression() : void
+          methodargList() : void
+          methodnewArrayDeclarator() : void
+          methodclassBlock() : void
+          methodinterfaceBlock() : void
+          methodenumBlock() : void
+          methodannotationBlock() : void
+          methodenumConstantBlock() : void
+          methodclassOrInterfaceType() : String
+          methodclassField() : void
+          methodinterfaceField() : void
+          methodrelationalExpression() : void
+          methodoptor() : void
+          methodcast_expression() : void
+          methodrelationalExpression() : void
+          methodassignment_expression() : void
+          methodoptor_simple_tokclass() : void
+          methodtoDoItemsChanged(ToDoListEvent tde) : void
+          methodtoDoItemsAdded(ToDoListEvent tde) : void
+          methodtoDoItemsChanged(ToDoListEvent tde) : void
+          methodtoDoItemsAdded(ToDoListEvent tde) : void
+          methodtoDoItemsChanged(ToDoListEvent tde) : void
+          methodtoDoItemsAdded(ToDoListEvent tde) : void
+          methodtoDoItemsChanged(ToDoListEvent tde) : void
+          methodtoDoItemsAdded(ToDoListEvent tde) : void
+          methodtoDoItemsChanged(ToDoListEvent tde) : void
+          methodtoDoItemsAdded(ToDoListEvent tde) : void
+          methodunaryExpression() : void
+          methodunaryExpressionNotPlusMinus() : void
+          methodgetNotationProvider(int type, Object object) : NotationProvider4
+          methodgetNotationProvider(int type, NotationContext context, Object object) : NotationProvider4
+          methodimplementsClause() : Vector
+          methodinterfaceExtends() : Vector
+          methodunaryExpression() : void
+          methodunaryExpressionNotPlusMinus() : void
+          methodmJAVADOC(boolean _createToken) : void
+          methodmML_COMMENT(boolean _createToken) : void
+          methodctor_decl_spec() : void
+          methoddtor_decl_spec() : void
+          methodmID(boolean _createToken) : void
+          methodclassBlock(CompositeCodePiece header) : void
+          methodtryBlock() : void
+          methodmIDENT(boolean _createToken) : void
+          methodgetPreviousVisibleFeature(FigGroup fgVec, FigText ft, int i) : _unknown_type
+          methodgetNextVisibleFeature(FigGroup fgVec, FigText ft, int i) : _unknown_type
+          methodhitClarifier(int x, int y) : ToDoItem
+          methodannotationField() : void
+          methodmIDENT(boolean _createToken) : void
+	
+          10
+          10
+          10
+          10
+          10
+          10
+          9
+          9
+          9
+          9
+          9
+          9
+          8
+          8
+          8
+          8
+          8
+          8
+          8
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+SAP Breakers: 5
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.checklist
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.util
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+	
+          10
+          9
+          8
+          7
+          7
+Intensive Coupling: 75
+          methodbuildConnection(Object elementType, Object fromElement, Object fromStyle, Object toElement, Object toStyle, Object unidirectional, Object namespace) : Object
+          methodbuildNode(Object elementType) : Object
+          methodparseMessage(Object mes, String s) : void
+          methodgetFigNodeFor(Object node, int x, int y, Map styleAttributes) : _unknown_type
+          methodgenerate(Object o) : String
+          methodcreatePropPanel(Object modelElement) : TabModelTarget
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodgenerateImports(Object cls, String packagePath) : String
+          methodExplorerPopup(Object selectedItem, MouseEvent me)
+          methodgen(Object o) : Enumeration
+          methodaddNodeRelatedEdges(Object node) : void
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttribute) : _unknown_type
+          methodgenerateClassifier(Object cls) : String
+          methodconvertValueToText(Object value, boolean selected, boolean expanded, boolean leaf, int row, boolean hasFocus) : String
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodgetFigEdgeFor(Object edge, Map styleAttributes) : _unknown_type
+          methodcanAddEdge(Object edge) : boolean
+          methodcanAddEdge(Object edge) : boolean
+          methodaddNodeRelatedEdges(Object node) : void
+          methodgenerateVisibility(Object o) : String
+          methodgenerateMultiplicity(Object item, String name, Object m, String modifier) : String
+          methodgenerateAttribute(Object attr, boolean documented) : String
+          methodgenerateAssociationEnd(Object associationEnd) : String
+          methodcreateOperation(Object modelElement) : void
+          methodgenerateOperation(Object modelElement, boolean bAddDocs) : String
+          methodgenerateRequired(Object modelElement) : String
+          methoddelete(Object elem) : void
+          methoddeleteNamespace(Namespace elem) : void
+          methoddeleteRelationship(Relationship elem) : void
+          methoddeleteAction(Object elem) : void
+          methodgenerateClassifierStart(Object cls) : StringBuffer
+          methodgenerateClassifierBody(Object cls) : StringBuffer
+          methodgenerateVisibility(Object o) : String
+          methodhandleSettingsTabSave() : void
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodgetChildren(Object parent) : Collection
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodfindAssociation(Object dm, int depth) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodcanAddEdge(Object edge) : boolean
+          methodaddNodeRelatedEdges(Object node) : void
+          methodgetInEdges(Object port) : List
+          methodcanAddNode(Object node) : boolean
+          methodvetoableChange(PropertyChangeEvent pce) : void
+          methodgetFigNodeFor(GraphModel gm, Layer lay, Object node, Map styleAttributes) : _unknown_type
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methodcanConnect(Object fromP, Object toP, Object edgeType) : boolean
+          methodgetFigNodeFor(GraphModel gm, Layer lay, Object node, Map styleAttributes) : _unknown_type
+          methodcanAddNode(Object node) : boolean
+          methodaddNodeRelatedEdges(Object node) : void
+          methodgetFigNodeFor(GraphModel gm, Layer lay, Object node, Map styleAttributes) : _unknown_type
+          methodgetFigEdgeFor(GraphModel gm, Layer lay, Object edge, Map styleAttributes) : _unknown_type
+          methodgenerateVisibility(Object o) : String
+          methodtoString() : String
+          methodaddOperation(short modifiers, String returnType, String name, Vector parameters, String javadoc) : Object
+          methodactionPerformed(ActionEvent e) : void
+          methodactionPerformed(ActionEvent e) : void
+          methodactionPerformed(ActionEvent e) : void
+          methodgenerateParameter(Object modelElement) : String
+          methoddeleteStateVertex(StateVertex elem) : void
+          methodgenerateClass(Object mClass, BufferedReader reader, BufferedWriter writer) : void
+          methodgenerateInterface(Object mInterface, BufferedReader reader, BufferedWriter writer) : void
+          methodgetDependencies(Object parent) : Set
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodpredicate2(Object dm, Designer dsgr) : boolean
+          methodmodelChanged(PropertyChangeEvent e) : void
+          methodgetOutEdges(Object port) : List
+          methodvetoableChange(PropertyChangeEvent pce) : void
+	
+          8
+          8
+          8
+          7
+          7
+          7
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+External Duplication: 51
+          methodmID(boolean _createToken) : void
+          methodstatement() : void
+          methodnextToken() : _unknown_type
+          methodmIDENT(boolean _createToken) : void
+          methodstatement() : void
+          methodnextToken() : _unknown_type
+          methodmIDENT(boolean _createToken) : void
+          methodnextToken() : _unknown_type
+          methodmESC(boolean _createToken) : void
+          methodmEXPONENT(boolean _createToken) : void
+          methodargList() : void
+          methodforIter() : void
+          methodmESC(boolean _createToken) : void
+          methodmEXPONENT(boolean _createToken) : void
+          methodmExponent(boolean _createToken) : void
+          methodforCond() : void
+          methodforIter() : void
+          methodassignmentExpression() : void
+          methodpostfixExpression() : void
+          methodprimaryExpression() : void
+          methodargList() : void
+          methodgetClosestPoint(Point anotherPt) : Point
+          methodgetHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodgetHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodforCond() : void
+          methodassignmentExpression() : void
+          methodprimaryExpression() : void
+          methodgenerateVisibility(Object o) : String
+          methodconditionalExpression() : void
+          methodrelationalExpression() : void
+          methodmouseReleased(MouseEvent me) : void
+          methodmouseReleased(MouseEvent me) : void
+          methodgenerateVisibility(Object o) : String
+          methodconditionalExpression() : void
+          methodrelationalExpression() : void
+          methodinitializer() : void
+          methodtryBlock() : void
+          methodnewExpression() : void
+          methodnewArrayDeclarator() : void
+          methodmHEX_DIGIT(boolean _createToken) : void
+          methodmFLOAT_SUFFIX(boolean _createToken) : void
+          methodgetClosestPoint(Point anotherPt) : Point
+          methodgetClosestPoint(Point anotherPt) : Point
+          methodinitializer() : void
+          methodtryBlock() : void
+          methodnewExpression() : void
+          methodnewArrayDeclarator() : void
+          methodmHEX_DIGIT(boolean _createToken) : void
+          methodmFLOAT_SUFFIX(boolean _createToken) : void
+          methodactionPerformed(ActionEvent e) : void
+          methodactionPerformed(ActionEvent e) : void
+	
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Refused Parent Bequest: 4
+          classFigClassifierRole
+          classFigDataType
+          classFigClass
+          classFigInterface
+	
+          10
+          10
+          10
+          10
+Data Clumps: 37
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methoddragHandle(int mX, int mY, int anX, int anY, Handle hand) : void
+          methodgetHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodgetHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodgetElementHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodgetHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodgetElementHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          methodbuildConnection(Object elementType, Object fromElement, Object fromStyle, Object toElement, Object toStyle, Object unidirectional, Object namespace) : Object
+          methodbuildConnection(Object connectionType, Object fromElement, Object fromStyle, Object toElement, Object toStyle, Object unidirectional, Object namespace) : Object
+          methodbuildConnection(Object edgeType, Object fromElement, Object fromStyle, Object toElement, Object toStyle, Object unidirectional, Object namespace) : Object
+          methodRemoveAssociationEvent(Object source, String propertyName, Object oldValue, Object newValue, Object changedValue, EventObject originalEvent)
+          methodDeleteInstanceEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodAddAssociationEvent(Object source, String propertyName, Object oldValue, Object newValue, Object changedValue, EventObject originalEvent)
+          methodInstanceChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodAssociationChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, Object theChangedValue, EventObject originalEvent)
+          methodAttributeChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodToDoItem(Poster poster, String h, int p, String d, String m, ListSet offs)
+          methodToDoItem(Poster poster, String h, int p, String d, String m)
+          methodUMLToDoItem(Poster poster, String h, int p, String d, String m, ListSet offs)
+          methodUMLToDoItem(Poster poster, String h, int p, String d, String m)
+          methodFigMultiLineText(int x, int y, int w, int h, boolean expandOnly)
+          methodFigSingleLineText(int x, int y, int w, int h, boolean expandOnly)
+          methodFigStereotypeText(int x, int y, int w, int h, boolean expandOnly)
+	
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+Unstable Dependencies: 7
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.kernel
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.api
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.ui
+	
+          4
+          3
+          3
+          2
+          2
+          2
+          2
+Schizophrenic Class: 9
+          classImport
+          classCoreFactoryMDRImpl
+          classStylePanel
+          classModeller
+          classWizStep
+          classStateDiagramGraphModel
+          classFigConcurrentRegion
+          classTableModelClassChecks
+          classTabTaggedValuesModel
+	
+          6
+          3
+          3
+          3
+          1
+          1
+          1
+          1
+          1
+Blob Class: 6
+          classGeneratorCSharp
+          classGeneratorJava
+          classGeneratorPHP4
+          classModeller
+          classProjectBrowser
+          classUseCaseDiagramGraphModel
+	
+          8
+          8
+          7
+          6
+          5
+          2
+Data Class: 5
+          classSimpleCodePiece
+          classEdgeData
+          classLanguage
+          classPropPanelStateVertex
+          classAbstractPropPanelState
+	
+          1
+          1
+          1
+          1
+          1
+Tradition Breaker: 4
+          classDummyModelMemento
+          classFigComment
+          classFigEdgeAssociationClass
+          classPropPanelSubmachineState
+	
+          1
+          1
+          1
+          1
+Shotgun Surgery: 1
+          methodcreateDiagram(Class type, Object namespace, Object machine) : ArgoDiagram
+	
+          5
+Feature Envy: 3
+          methodtoString() : String
+          methodrun() : void
+          methodplaceNode(ClassdiagramNode node) : void
+	
+          3
+          2
+          2

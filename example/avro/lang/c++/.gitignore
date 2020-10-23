@@ -1,0 +1,8 @@
+build/
+build.mac/
+doc/
+test.avro
+test6.df
+test8.df
+test9.df
+test_skip.df

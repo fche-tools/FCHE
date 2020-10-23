@@ -1,0 +1,1058 @@
+God Class: 22
+          classAttributeNotationUml
+          classUmlFactoryMDRImpl
+          classProjectBrowser
+          classOperationNotationUml
+          classRESequenceDiagramDialog
+          classCoreFactoryMDRImpl
+          classFacadeMDRImpl
+          classProject
+          classSequenceDiagramGraphModel
+          classFigNodeModelElement
+          classMessageNotationUml
+          classNotationUtilityUml
+          classModeller
+          classCoreHelperMDRImpl
+          classModelManagementHelperMDRImpl
+          classToDoItem
+          classUMLMutableGraphSupport
+          classFigDataType
+          classFigInterface
+          classFigEdgeModelElement
+          classStateBodyNotationUml
+          classTransitionNotationUml
+	
+          6
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Cyclic Dependencies: 60
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.api
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.configuration
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.events
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.helpers
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.modules
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.i18n
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.kernel
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.moduleloader
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ocl
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.persistence
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.explorer
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.targetmanager
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.activity.layout
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.activity.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.collaboration
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.sequence
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.sequence.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.state
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.state.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.static_structure
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.static_structure.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.generator
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.generator.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.foundation.core
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.foundation.extension_mechanisms
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.util
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.explorer.rules
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive.checklist
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng.java
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.common_behavior
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.state_machines
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui.cmd
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.collaboration.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.use_case.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation.uml
+          subsystemsubsystem_ArgoUML (0)/argouml-php/src.org.argouml.language.php
+          subsystemsubsystem_ArgoUML (0)/argouml-php/src.org.argouml.language.php.generator
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.deployment.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.notation.java
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.reveng.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.activity_graphs
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.collaborations
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.behavior.use_cases
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui.model_management
+	
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+Sibling Duplication: 72
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          methodWizStepChoice(Wizard w, String instr, Vector ch)
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          generateAction[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, MessageNotationUml, GeneratorJava, TransitionNotationUml, StateBodyNotationUml].java
+          generateAction[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, MessageNotationUml, GeneratorJava, TransitionNotationUml, StateBodyNotationUml].java
+          generateAction[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, MessageNotationUml, GeneratorJava, TransitionNotationUml, StateBodyNotationUml].java
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          methodWizStepManyTextFields(Wizard w, String instr, Vector strings)
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          initMainPanel[GoalsDialog, DesignIssuesDialog].java
+          methodWizStepConfirm()
+          methodWizStepTextField()
+          methodWizStepCue(Wizard w, String cue)
+          initMainPanel[GoalsDialog, DesignIssuesDialog].java
+          doSave[ActionSaveGraphics, AbstractFilePersister, XmiFilePersister, ZipFilePersister, UmlFilePersister, ZargoFilePersister].java
+          doSave[ActionSaveGraphics, AbstractFilePersister, XmiFilePersister, ZipFilePersister, UmlFilePersister, ZargoFilePersister].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          setBoundsImpl[FigForkState, FigJoinState, FigConcurrentRegion, FigComment, FigHead, FigObjectFlowState, FigUseCase, FigCompositeState, FigModel, FigClassifierRole, FigClass, FigSubactivityState, FigSubmachineState, FigFeaturesCompartment, FigComponent, FigObject, FigMessagePort, FigStubState, FigCompartment, FigPackage, FigMessage, FigInterface, FigEnumeration, FigDataType, FigNodeAssociation, FigMNode, FigLifeLine, FigSubsystem, FigComponentInstance, FigMNodeInstance, FigSimpleState, FigActionState, FigActor, FigInstance, FigStereotypeDeclaration, FigStereotypesCompartment, FigPartition].java
+          setBoundsImpl[FigForkState, FigJoinState, FigConcurrentRegion, FigComment, FigHead, FigObjectFlowState, FigUseCase, FigCompositeState, FigModel, FigClassifierRole, FigClass, FigSubactivityState, FigSubmachineState, FigFeaturesCompartment, FigComponent, FigObject, FigMessagePort, FigStubState, FigCompartment, FigPackage, FigMessage, FigInterface, FigEnumeration, FigDataType, FigNodeAssociation, FigMNode, FigLifeLine, FigSubsystem, FigComponentInstance, FigMNodeInstance, FigSimpleState, FigActionState, FigActor, FigInstance, FigStereotypeDeclaration, FigStereotypesCompartment, FigPartition].java
+          setBoundsImpl[FigForkState, FigJoinState, FigConcurrentRegion, FigComment, FigHead, FigObjectFlowState, FigUseCase, FigCompositeState, FigModel, FigClassifierRole, FigClass, FigSubactivityState, FigSubmachineState, FigFeaturesCompartment, FigComponent, FigObject, FigMessagePort, FigStubState, FigCompartment, FigPackage, FigMessage, FigInterface, FigEnumeration, FigDataType, FigNodeAssociation, FigMNode, FigLifeLine, FigSubsystem, FigComponentInstance, FigMNodeInstance, FigSimpleState, FigActionState, FigActor, FigInstance, FigStereotypeDeclaration, FigStereotypesCompartment, FigPartition].java
+          setBoundsImpl[FigForkState, FigJoinState, FigConcurrentRegion, FigComment, FigHead, FigObjectFlowState, FigUseCase, FigCompositeState, FigModel, FigClassifierRole, FigClass, FigSubactivityState, FigSubmachineState, FigFeaturesCompartment, FigComponent, FigObject, FigMessagePort, FigStubState, FigCompartment, FigPackage, FigMessage, FigInterface, FigEnumeration, FigDataType, FigNodeAssociation, FigMNode, FigLifeLine, FigSubsystem, FigComponentInstance, FigMNodeInstance, FigSimpleState, FigActionState, FigActor, FigInstance, FigStereotypeDeclaration, FigStereotypesCompartment, FigPartition].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          methodProjectSettingsTabProperties()
+          methodSettingsTabUser()
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          updateStereotypeText[FigMessage, FigComment, FigNodeModelElement, FigMNode, FigUseCase, FigEdgeModelElement, FigComponentInstance, FigMNodeInstance, FigClassifierRole, FigClass, FigComponent, FigActor, FigEdgeNote, FigPackage].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getClosestPoint[FigMNodeInstance, FigBranchState, FigComment, FigMNode, FigJunctionState, CubePortFigRect, FigPackage, PackagePortFigRect].java
+          getClosestPoint[FigMNodeInstance, FigBranchState, FigComment, FigMNode, FigJunctionState, CubePortFigRect, FigPackage, PackagePortFigRect].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getPopUpActions[FigMessage, FigInterface, FigEnumeration, FigConcurrentRegion, FigDataType, FigNodeModelElement, FigMNode, FigUseCase, FigCompositeState, FigEdgeModelElement, FigClass, FigAssociation, FigComponent, FigActor, FigStereotypeDeclaration, FigPackage].java
+          getPopUpActions[FigMessage, FigInterface, FigEnumeration, FigConcurrentRegion, FigDataType, FigNodeModelElement, FigMNode, FigUseCase, FigCompositeState, FigEdgeModelElement, FigClass, FigAssociation, FigComponent, FigActor, FigStereotypeDeclaration, FigPackage].java
+          updateStereotypeText[FigMessage, FigComment, FigNodeModelElement, FigMNode, FigUseCase, FigEdgeModelElement, FigComponentInstance, FigMNodeInstance, FigClassifierRole, FigClass, FigComponent, FigActor, FigEdgeNote, FigPackage].java
+          updateListeners[FigInterface, FigEnumeration, FigState, FigNodeModelElement, FigObjectFlowState, FigMNode, FigUseCase, FigEdgeModelElement, FigComponentInstance, FigMNodeInstance, FigClassifierRole, FigClass, FigCallState, FigAssociation, FigSubactivityState, FigSubmachineState, FigAssociationEnd, FigActionState, FigComponent, FigStereotypeDeclaration, FigObject, FigEdgeNote, FigAssociationRole].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          getPopUpActions[FigMessage, FigInterface, FigEnumeration, FigConcurrentRegion, FigDataType, FigNodeModelElement, FigMNode, FigUseCase, FigCompositeState, FigEdgeModelElement, FigClass, FigAssociation, FigComponent, FigActor, FigStereotypeDeclaration, FigPackage].java
+          updateListeners[FigInterface, FigEnumeration, FigState, FigNodeModelElement, FigObjectFlowState, FigMNode, FigUseCase, FigEdgeModelElement, FigComponentInstance, FigMNodeInstance, FigClassifierRole, FigClass, FigCallState, FigAssociation, FigSubactivityState, FigSubmachineState, FigAssociationEnd, FigActionState, FigComponent, FigStereotypeDeclaration, FigObject, FigEdgeNote, FigAssociationRole].java
+          getPopUpActions[FigMessage, FigInterface, FigEnumeration, FigConcurrentRegion, FigDataType, FigNodeModelElement, FigMNode, FigUseCase, FigCompositeState, FigEdgeModelElement, FigClass, FigAssociation, FigComponent, FigActor, FigStereotypeDeclaration, FigPackage].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          hitHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionEnumeration, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          parse[CallStateNotationUml, NodeInstanceNotationUml, AttributeNotationJava, ObjectNotationUml, OperationNotationJava, ActionStateNotationUml, AssociationRoleNotationUml, TransitionNotationUml, AssociationEndNameNotationJava, AttributeNotationUml, AssociationEndNameNotationUml, OperationNotationUml, ExtensionPointNotationUml, XmiReaderImpl, ModelElementNameNotationJava, MessageNotationUml, StringNamespace, ClassifierRoleNotationUml, ObjectFlowStateStateNotationUml, ObjectFlowStateTypeNotationUml, ComponentInstanceNotationUml, ModelElementNameNotationUml, StateBodyNotationUml, SAXParserBase].java
+          parse[CallStateNotationUml, NodeInstanceNotationUml, AttributeNotationJava, ObjectNotationUml, OperationNotationJava, ActionStateNotationUml, AssociationRoleNotationUml, TransitionNotationUml, AssociationEndNameNotationJava, AttributeNotationUml, AssociationEndNameNotationUml, OperationNotationUml, ExtensionPointNotationUml, XmiReaderImpl, ModelElementNameNotationJava, MessageNotationUml, StringNamespace, ClassifierRoleNotationUml, ObjectFlowStateStateNotationUml, ObjectFlowStateTypeNotationUml, ComponentInstanceNotationUml, ModelElementNameNotationUml, StateBodyNotationUml, SAXParserBase].java
+          isValidEvent[UMLComboBoxModel2, UMLModelElementListModel2].java
+          isValidEvent[UMLComboBoxModel2, UMLModelElementListModel2].java
+          buildModelList[UMLStateEntryListModel, UMLTransitionTriggerListModel, UMLClassOperationListModel, UMLDependencyClientListModel, UMLInstanceSenderStimulusListModel, UMLTransitionStateListModel, UMLExtendExtensionListModel, UMLAssociationEndAssociationListModel, UMLTransitionStatemachineListModel, UMLTagDefinitionOwnerComboBoxModel, UMLModelElementClientDependencyListModel, UMLGeneralizationChildListModel, UMLExtendExtensionPointListModel, UMLClassifierInStateTypeComboBoxModel, UMLCollaborationRepresentedClassifierComboBoxModel, UMLStateDeferrableEventListModel, UMLTransitionSourceListModel, UMLMessageInteractionListModel, UMLExtensionPointExtendListModel, UMLInteractionMessagesListModel, UMLModelElementElementResidenceListModel, UMLNodeDeployedComponentListModel, UMLStateMachineTopListModel, UMLGeneralizationParentListModel, UMLParameterBehavioralFeatListModel, UMLAssociationRoleMessageListModel, UMLCollaborationConstrainingElementListModel, UMLEventParameterListModel, UMLFeatureOwnerListModel, UMLMessageActionListModel, UMLComponentResidentListModel, UMLStereotypeTagDefinitionListModel, UMLStimulusSenderListModel, UMLUseCaseExtendListModel, UMLGeneralizableElementGeneralizationListModel, UMLClassifierCreateActionListModel, UMLObjectFlowStateClassifierComboBoxModel, UMLContainerResidentListModel, UMLTransitionTargetListModel, UMLEnumerationLiteralsListModel, UMLCISStateListModel, UMLInstanceLinkEndListModel, UMLStructuralFeatureTypeComboBoxModel, UMLActionArgumentListModel, UMLMessagePredecessorListModel, UMLClassifierPackageImportsListModel, UMLModelElementSourceFlowListModel, UMLLinkConnectionListModel, UMLSendActionSignalListModel, UMLActivityGraphContextComboBoxModel, UMLDependencySupplierListModel, UMLStimulusReceiverListModel, UMLClassifierRoleAvailableFeaturesListModel, UMLStateInternalTransition, UMLClassifierClassifierInStateListModel, UMLAssociationConnectionListModel, UMLAssociationEndSpecificationListModel, UMLExtendBaseListModel, UMLExtensionPointUseCaseListModel, UMLIncludeAdditionListModel, UMLSignalContextListModel, UMLClassifierRoleAvailableContentsListModel, UMLCallEventOperationComboBoxModel, UMLClassifierAssociationEndListModel, UMLInstanceClassifierListModel, UMLModelElementNamespaceComboBoxModel, UMLMetaClassComboBoxModel, UMLAssociationAssociationRoleListModel, UMLStateVertexContainerListModel, UMLGeneralizationPowertypeComboBoxModel, UMLExtendedElementsListModel, UMLModelElementOrderedListModel2, UMLStateMachineTransitionListModel, UMLComboBoxModel2, UMLModelElementTargetFlowListModel, UMLStateMachineContextComboBoxModel, UMLClassifierParameterListModel, UMLMultiplicityComboBoxModel, UMLClassifierCollaborationListModel, UMLMessageActivatorComboBoxModel, UMLTransitionEffectListModel, UMLClassifierParticipantListModel, UMLOperationMethodsListModel, UMLStateVertexOutgoingListModel, UMLClassifierInstanceListModel, UMLInstanceReceiverStimulusListModel, UMLEventTransitionListModel, UMLAssociationRoleBaseComboBoxModel, UMLTagDefinitionTypedValuesListModel, UMLReceptionSignalComboBoxModel, UMLNamespaceOwnedElementListModel, UMLMessageReceiverListModel, UMLPartitionContentsListModel, UMLClassifierStructuralFeatureListModel, UMLMessageSenderListModel, UMLTransitionGuardListModel, UMLModelElementSupplierDependencyListModel, UMLCompositeStateSubvertexListModel, UMLClassifierFeatureListModel, UMLStateVertexIncomingListModel, UMLStateMachineContextListModel, UMLStubStateComboBoxModel, UMLTagDefinitionComboBoxModel, UMLClassAttributeListModel, UMLModelElementNamespaceListModel, UMLAssociationLinkListModel, UMLClassifierClassifierRoleListModel, UMLInteractionContextListModel, UMLCommentAnnotatedElementListModel, UMLClassifierObjectFlowStateListModel, UMLLinkAssociationComboBoxModel, UMLAssociationEndQualifiersListModel, UMLClassifierPowertypeRangeListModel, UMLCollaborationInteractionListModel, UMLIncludeBaseListModel, UMLStateExitListModel, UMLTagDefinitionNamespaceComboBoxModel, UMLCreateActionClassifierListModel, UMLOperationRaisedSignalsListModel, UMLSignalReceptionListModel, UMLAttributeInitialValueListModel, UMLGuardTransitionListModel, UMLSubmachineStateComboBoxModel, UMLModelElementStereotypeListModel, UMLStateDoActivityListModel, UMLAssociationEndRoleBaseListModel, UMLStateMachineSubmachineStateListModel, UMLTagDefinitionTypeComboBoxModel, UMLAssociationRoleAssociationEndRoleListModel, UMLCollaborationRepresentedOperationComboBoxModel, UMLGeneralizableElementSpecializationListModel, UMLUseCaseExtensionPointListModel, UMLModelElementListModel2, UMLUseCaseIncludeListModel, UMLConstraintConstrainedElementListModel, UMLSignalEventSignalListModel, UMLClassifierRoleBaseListModel, UMLModelElementConstraintListModel].java
+          buildModelList[UMLStateEntryListModel, UMLTransitionTriggerListModel, UMLClassOperationListModel, UMLDependencyClientListModel, UMLInstanceSenderStimulusListModel, UMLTransitionStateListModel, UMLExtendExtensionListModel, UMLAssociationEndAssociationListModel, UMLTransitionStatemachineListModel, UMLTagDefinitionOwnerComboBoxModel, UMLModelElementClientDependencyListModel, UMLGeneralizationChildListModel, UMLExtendExtensionPointListModel, UMLClassifierInStateTypeComboBoxModel, UMLCollaborationRepresentedClassifierComboBoxModel, UMLStateDeferrableEventListModel, UMLTransitionSourceListModel, UMLMessageInteractionListModel, UMLExtensionPointExtendListModel, UMLInteractionMessagesListModel, UMLModelElementElementResidenceListModel, UMLNodeDeployedComponentListModel, UMLStateMachineTopListModel, UMLGeneralizationParentListModel, UMLParameterBehavioralFeatListModel, UMLAssociationRoleMessageListModel, UMLCollaborationConstrainingElementListModel, UMLEventParameterListModel, UMLFeatureOwnerListModel, UMLMessageActionListModel, UMLComponentResidentListModel, UMLStereotypeTagDefinitionListModel, UMLStimulusSenderListModel, UMLUseCaseExtendListModel, UMLGeneralizableElementGeneralizationListModel, UMLClassifierCreateActionListModel, UMLObjectFlowStateClassifierComboBoxModel, UMLContainerResidentListModel, UMLTransitionTargetListModel, UMLEnumerationLiteralsListModel, UMLCISStateListModel, UMLInstanceLinkEndListModel, UMLStructuralFeatureTypeComboBoxModel, UMLActionArgumentListModel, UMLMessagePredecessorListModel, UMLClassifierPackageImportsListModel, UMLModelElementSourceFlowListModel, UMLLinkConnectionListModel, UMLSendActionSignalListModel, UMLActivityGraphContextComboBoxModel, UMLDependencySupplierListModel, UMLStimulusReceiverListModel, UMLClassifierRoleAvailableFeaturesListModel, UMLStateInternalTransition, UMLClassifierClassifierInStateListModel, UMLAssociationConnectionListModel, UMLAssociationEndSpecificationListModel, UMLExtendBaseListModel, UMLExtensionPointUseCaseListModel, UMLIncludeAdditionListModel, UMLSignalContextListModel, UMLClassifierRoleAvailableContentsListModel, UMLCallEventOperationComboBoxModel, UMLClassifierAssociationEndListModel, UMLInstanceClassifierListModel, UMLModelElementNamespaceComboBoxModel, UMLMetaClassComboBoxModel, UMLAssociationAssociationRoleListModel, UMLStateVertexContainerListModel, UMLGeneralizationPowertypeComboBoxModel, UMLExtendedElementsListModel, UMLModelElementOrderedListModel2, UMLStateMachineTransitionListModel, UMLComboBoxModel2, UMLModelElementTargetFlowListModel, UMLStateMachineContextComboBoxModel, UMLClassifierParameterListModel, UMLMultiplicityComboBoxModel, UMLClassifierCollaborationListModel, UMLMessageActivatorComboBoxModel, UMLTransitionEffectListModel, UMLClassifierParticipantListModel, UMLOperationMethodsListModel, UMLStateVertexOutgoingListModel, UMLClassifierInstanceListModel, UMLInstanceReceiverStimulusListModel, UMLEventTransitionListModel, UMLAssociationRoleBaseComboBoxModel, UMLTagDefinitionTypedValuesListModel, UMLReceptionSignalComboBoxModel, UMLNamespaceOwnedElementListModel, UMLMessageReceiverListModel, UMLPartitionContentsListModel, UMLClassifierStructuralFeatureListModel, UMLMessageSenderListModel, UMLTransitionGuardListModel, UMLModelElementSupplierDependencyListModel, UMLCompositeStateSubvertexListModel, UMLClassifierFeatureListModel, UMLStateVertexIncomingListModel, UMLStateMachineContextListModel, UMLStubStateComboBoxModel, UMLTagDefinitionComboBoxModel, UMLClassAttributeListModel, UMLModelElementNamespaceListModel, UMLAssociationLinkListModel, UMLClassifierClassifierRoleListModel, UMLInteractionContextListModel, UMLCommentAnnotatedElementListModel, UMLClassifierObjectFlowStateListModel, UMLLinkAssociationComboBoxModel, UMLAssociationEndQualifiersListModel, UMLClassifierPowertypeRangeListModel, UMLCollaborationInteractionListModel, UMLIncludeBaseListModel, UMLStateExitListModel, UMLTagDefinitionNamespaceComboBoxModel, UMLCreateActionClassifierListModel, UMLOperationRaisedSignalsListModel, UMLSignalReceptionListModel, UMLAttributeInitialValueListModel, UMLGuardTransitionListModel, UMLSubmachineStateComboBoxModel, UMLModelElementStereotypeListModel, UMLStateDoActivityListModel, UMLAssociationEndRoleBaseListModel, UMLStateMachineSubmachineStateListModel, UMLTagDefinitionTypeComboBoxModel, UMLAssociationRoleAssociationEndRoleListModel, UMLCollaborationRepresentedOperationComboBoxModel, UMLGeneralizableElementSpecializationListModel, UMLUseCaseExtensionPointListModel, UMLModelElementListModel2, UMLUseCaseIncludeListModel, UMLConstraintConstrainedElementListModel, UMLSignalEventSignalListModel, UMLClassifierRoleBaseListModel, UMLModelElementConstraintListModel].java
+          placeElements[PropPanelModel, PropPanelPackage].java
+          placeElements[PropPanelModel, PropPanelPackage].java
+	
+          8
+          8
+          8
+          8
+          8
+          8
+          8
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Blob Operation: 62
+          parseMessage[MessageNotationUml].java
+          parseOperation[OperationNotationUml].java
+          parseAttribute[AttributeNotationUml].java
+          mNUM_INT[JavaLexer].java
+          generateClassifier[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava].java
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          generateClassifierOperations[GeneratorPHP4].java
+          main[Main].java
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          generateClassifierBody[GeneratorCpp, GeneratorJava].java
+          navigateQualified[ArgoAny].java
+          convertValueToText[DisplayTextTree].java
+          methodExplorerPopup(Object selectedItem, MouseEvent me)
+          mouseReleased[ModeCreateAssociationEnd, SelectionRerouteEdge, FigConcurrentRegion, DetailsPane, ToDoPane, FigEdgeModelElement, FigClassifierRole, FindDialog, MultiEditorPane, UMLList2, ModeCreateMessage, UMLMutableLinkedList, FigTextGroup, ModeCreateCommentEdge, UMLLinkMouseListener, TabResults, ModeChangeHeight].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+          parseClassifierRole[ClassifierRoleNotationUml].java
+          parseModelElement[ModelElementNameNotationUml].java
+          methodparseObjectFlowState2(Object objectFlowState, String s) : Object
+          parseCallState[CallStateNotationUml].java
+          parseParamList[NotationUtilityUml].java
+          generateFilesForElem[GeneratorCpp].java
+          generateFile[GeneratorPHP4].java
+          generateConstraintEnrichedDocComment[GeneratorCSharp, GeneratorCpp, GeneratorJava].java
+          generateOperation[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, CodeGenerator].java
+          generateRequired[GeneratorPHP4].java
+          buildAssociationEnd[CoreFactoryMDRImpl].java
+          delete[UmlFactoryMDRImpl, ObjectFlowStateStateNotationUml, CommentEdge, TransitionNotationUml, StateBodyNotationUml].java
+          generateOperation[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, CodeGenerator].java
+          generateConstraintEnrichedDocComment[GeneratorCSharp, GeneratorCpp, GeneratorJava].java
+          drop[DnDJGraph].java
+          connect[UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel].java
+          setBoundsImpl[FigForkState, FigJoinState, FigConcurrentRegion, FigComment, FigHead, FigObjectFlowState, FigUseCase, FigCompositeState, FigModel, FigClassifierRole, FigClass, FigSubactivityState, FigSubmachineState, FigFeaturesCompartment, FigComponent, FigObject, FigMessagePort, FigStubState, FigCompartment, FigPackage, FigMessage, FigInterface, FigEnumeration, FigDataType, FigNodeAssociation, FigMNode, FigLifeLine, FigSubsystem, FigComponentInstance, FigMNodeInstance, FigSimpleState, FigActionState, FigActor, FigInstance, FigStereotypeDeclaration, FigStereotypesCompartment, FigPartition].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          parseTrigger[TransitionNotationUml].java
+          parseRole[AssociationRoleNotationUml].java
+          addDocumentationTag[Modeller].java
+          qualifiedItemIs[CPPParser].java
+          generateAttribute[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, CodeGenerator].java
+          parse[CallStateNotationUml, NodeInstanceNotationUml, AttributeNotationJava, ObjectNotationUml, OperationNotationJava, ActionStateNotationUml, AssociationRoleNotationUml, TransitionNotationUml, AssociationEndNameNotationJava, AttributeNotationUml, AssociationEndNameNotationUml, OperationNotationUml, ExtensionPointNotationUml, XmiReaderImpl, ModelElementNameNotationJava, MessageNotationUml, StringNamespace, ClassifierRoleNotationUml, ObjectFlowStateStateNotationUml, ObjectFlowStateTypeNotationUml, ComponentInstanceNotationUml, ModelElementNameNotationUml, StateBodyNotationUml, SAXParserBase].java
+          generateFile[GeneratorPHP4].java
+          doSave[ActionSaveGraphics, AbstractFilePersister, XmiFilePersister, ZipFilePersister, UmlFilePersister, ZargoFilePersister].java
+          loadProject[ProjectBrowser].java
+          signaturesMatch[CrOperNameConflict].java
+          gen[ChildGenFind, ChildGenRelated, GenAncestorClasses, ChildGenUML, GenCompositeClasses, GenDescendantClasses, ChildGenDerivedClasses].java
+          getFigNodeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, ActivityDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          mouseReleased[ModeCreateAssociationEnd, SelectionRerouteEdge, FigConcurrentRegion, DetailsPane, ToDoPane, FigEdgeModelElement, FigClassifierRole, FindDialog, MultiEditorPane, UMLList2, ModeCreateMessage, UMLMutableLinkedList, FigTextGroup, ModeCreateCommentEdge, UMLLinkMouseListener, TabResults, ModeChangeHeight].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          addImport[Modeller].java
+          methodsetData(String sData, EditingUtilities euHelper) : void
+          createPanels[ProjectBrowser].java
+          dragOver[DnDJGraph, DnDExplorerTree].java
+          getPopUpActions[FigMessage, FigInterface, FigEnumeration, FigConcurrentRegion, FigDataType, FigNodeModelElement, FigMNode, FigUseCase, FigCompositeState, FigEdgeModelElement, FigClass, FigAssociation, FigComponent, FigActor, FigStereotypeDeclaration, FigPackage].java
+          getConfigPanel[Import, CppImport, FileImportSupport].java
+          get[Context, OuterClassifierContext, ListSet, MemberList, PackageContext, ClassifierContext].java
+          addOperation[Modeller].java
+          addAttribute[Modeller].java
+          doLoad[AbstractFilePersister, ModuleLoader2, XmiFilePersister, ZipFilePersister, UmlFilePersister, ZargoFilePersister].java
+          trySave[ActionSaveAllGraphics, ActionSaveGraphics, ProjectBrowser].java
+	
+          8
+          7
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+Internal Duplication: 91
+          direct_declarator[CPPParser].java
+          declarator_suffixes[CPPParser].java
+          function_direct_declarator[CPPParser].java
+          abstract_declarator_suffix[CPPParser].java
+          iteration_statement[CPPParser].java
+          postfix_expression[CPPParser].java
+          conversion_function_decl_or_def[CPPParser].java
+          ctor_declarator[CPPParser].java
+          superclass_init[CPPParser].java
+          abstract_declarator[CPPParser].java
+          jump_statement[CPPParser].java
+          new_initializer[CPPParser].java
+          declaration_specifiers[CPPParser].java
+          compound_statement[CPPParser].java
+          linkage_specification[CPPParser].java
+          initializer[JavaRecognizer, CPPParser].java
+          throw_statement[CPPParser].java
+          new_expression[CPPParser].java
+          delete_expression[CPPParser].java
+          argList[JavaRecognizer].java
+          forIter[JavaRecognizer].java
+          external_declaration[CPPParser].java
+          declaration[JavaRecognizer, CPPParser].java
+          member_declaration[CPPParser].java
+          postfixExpression[JavaRecognizer].java
+          annotation[JavaRecognizer].java
+          annotationMemberValueInitializer[JavaRecognizer].java
+          annotationMemberArrayInitializer[JavaRecognizer].java
+          annotationMemberArrayValueInitializer[JavaRecognizer].java
+          enumConstantField[JavaRecognizer].java
+          statement[JavaRecognizer, CPPParser].java
+          initializer[JavaRecognizer, CPPParser].java
+          arrayInitializer[JavaRecognizer].java
+          forCond[JavaRecognizer].java
+          postfixExpression[JavaRecognizer].java
+          newExpression[UMLScriptExpressionModel, UMLInitialValueExpressionModel, UMLRecurrenceExpressionModel, UMLTimeExpressionModel, UMLExpressionExpressionModel, UMLConditionExpressionModel, JavaRecognizer, UMLDefaultValueExpressionModel, UMLExpressionModel2, UMLChangeExpressionModel].java
+          newArrayDeclarator[JavaRecognizer].java
+          enum_specifier[CPPParser].java
+          initializer[JavaRecognizer, CPPParser].java
+          arrayInitializer[JavaRecognizer].java
+          statement[JavaRecognizer, CPPParser].java
+          forCond[JavaRecognizer].java
+          forIter[JavaRecognizer].java
+          newExpression[UMLScriptExpressionModel, UMLInitialValueExpressionModel, UMLRecurrenceExpressionModel, UMLTimeExpressionModel, UMLExpressionExpressionModel, UMLConditionExpressionModel, JavaRecognizer, UMLDefaultValueExpressionModel, UMLExpressionModel2, UMLChangeExpressionModel].java
+          argList[JavaRecognizer].java
+          newArrayDeclarator[JavaRecognizer].java
+          classBlock[JavaRecognizer].java
+          interfaceBlock[JavaRecognizer].java
+          enumBlock[JavaRecognizer].java
+          annotationBlock[JavaRecognizer].java
+          enumConstantBlock[JavaRecognizer].java
+          classOrInterfaceType[JavaRecognizer].java
+          classField[JavaRecognizer].java
+          interfaceField[JavaRecognizer].java
+          relationalExpression[JavaRecognizer].java
+          optor[CPPParser].java
+          cast_expression[CPPParser].java
+          relationalExpression[JavaRecognizer].java
+          assignment_expression[CPPParser].java
+          optor_simple_tokclass[CPPParser].java
+          toDoItemsChanged[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsAdded[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsChanged[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsAdded[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsChanged[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsAdded[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsChanged[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsAdded[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsChanged[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          toDoItemsAdded[ToDoByDecision, ToDoByGoal, ToDoByOffender, ToDoByPriority, ToDoByPoster, ToDoByType, ToDoPane].java
+          unaryExpression[JavaRecognizer].java
+          unaryExpressionNotPlusMinus[JavaRecognizer].java
+          getNotationProvider[CompartmentFigText, NotationProviderFactory2].java
+          getNotationProvider[CompartmentFigText, NotationProviderFactory2].java
+          implementsClause[JavaRecognizer].java
+          interfaceExtends[JavaRecognizer].java
+          unaryExpression[JavaRecognizer].java
+          unaryExpressionNotPlusMinus[JavaRecognizer].java
+          mJAVADOC[JavaLexer].java
+          mML_COMMENT[JavaLexer].java
+          ctor_decl_spec[CPPParser].java
+          dtor_decl_spec[CPPParser].java
+          mID[CPPLexer].java
+          classBlock[JavaRecognizer].java
+          tryBlock[JavaRecognizer].java
+          mIDENT[JavaLexer].java
+          getPreviousVisibleFeature[FigInterface, FigClass].java
+          getNextVisibleFeature[FigInterface, FigClass].java
+          hitClarifier[FigNodeModelElement, FigEdgeModelElement].java
+          annotationField[JavaRecognizer].java
+          mIDENT[JavaLexer].java
+	
+          10
+          10
+          10
+          10
+          10
+          10
+          9
+          9
+          9
+          9
+          9
+          9
+          8
+          8
+          8
+          8
+          8
+          8
+          8
+          7
+          7
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          6
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+SAP Breakers: 5
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.checklist
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.util
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.cognitive.critics
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+	
+          10
+          9
+          8
+          7
+          7
+Intensive Coupling: 75
+          buildConnection[UmlFactoryMDRImpl, UMLMutableGraphSupport].java
+          buildNode[UmlFactoryMDRImpl].java
+          parseMessage[MessageNotationUml].java
+          getFigNodeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, ActivityDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          generate[FileGeneratorAdapter, GeneratorHelper, GeneratorCpp, Generator2, AbstractSection, NameGenerator, Section].java
+          createPropPanel[TabProps].java
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          generateImports[GeneratorCSharp, GeneratorJava].java
+          methodExplorerPopup(Object selectedItem, MouseEvent me)
+          gen[ChildGenFind, ChildGenRelated, GenAncestorClasses, ChildGenUML, GenCompositeClasses, GenDescendantClasses, ChildGenDerivedClasses].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          generateClassifier[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava].java
+          convertValueToText[DisplayTextTree].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          generateVisibility[GeneratorPHP4, GeneratorCSharp, ModelElementNameNotationJava, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, ModelElementNameNotationUml, NotationUtilityUml].java
+          generateMultiplicity[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, AttributeNotationUml, NotationUtilityUml].java
+          generateAttribute[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, CodeGenerator].java
+          generateAssociationEnd[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava].java
+          createOperation[CoreFactoryMDRImpl, PHPDocumentor].java
+          generateOperation[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, CodeGenerator].java
+          generateRequired[GeneratorPHP4].java
+          delete[UmlFactoryMDRImpl, ObjectFlowStateStateNotationUml, CommentEdge, TransitionNotationUml, StateBodyNotationUml].java
+          deleteNamespace[UmlFactoryMDRImpl, CoreFactoryMDRImpl].java
+          deleteRelationship[UmlFactoryMDRImpl, CoreFactoryMDRImpl].java
+          deleteAction[CommonBehaviorFactoryMDRImpl, UmlFactoryMDRImpl].java
+          generateClassifierStart[GeneratorCpp, GeneratorJava].java
+          generateClassifierBody[GeneratorCpp, GeneratorJava].java
+          generateVisibility[GeneratorPHP4, GeneratorCSharp, ModelElementNameNotationJava, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, ModelElementNameNotationUml, NotationUtilityUml].java
+          handleSettingsTabSave[SettingsTabAppearance, SettingsTabUser, SettingsTabCpp, SettingsTabLayout, SettingsTabPreferences, SettingsTabNotation, SettingsTabEnvironment, SettingsTabModules, ProjectSettingsTabProperties].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          getChildren[GoNamespaceToDiagram, FacadeMDRImpl, GoStereotypeToTagDefinition, GoModelElementToContents, GoGeneralizableElementToSpecialized, GoMessageToAction, GoStateMachineToTransition, GoStateToDownstream, GoModelToElements, GoModelElementToBehavior, GoModelToBaseElements, GoSummaryToOutgoingDependency, GoComponentToResidentModelElement, GoModelElementToComment, GoStateMachineToTop, GoStatemachineToDiagram, GoSummaryToAssociation, GoUseCaseToExtensionPoint, GoStateToEntry, GoSummaryToIncomingDependency, GoClassifierToCollaboration, GoCollaborationToDiagram, GoStateToExit, GoDiagramToEdge, GoAssocRoleToMessages, GoSummaryToAttribute, GoClassToSummary, GoBehavioralFeatureToStateDiagram, GoElementToMachine, GoTransitionToGuard, GoModelToNode, GoStateToIncomingTrans, GoListToOffenderToItem, AbstractPerspectiveRule, GoLinkToStimuli, GoModelToCollaboration, GoOperationToCollaboration, GoClassifierToBehavioralFeature, GoListToPosterToItem, GoProjectToCollaboration, GoSummaryToInheritance, GoProjectToStateMachine, CoreHelperMDRImpl, GoClassifierToStateMachine, GoNamespaceToOwnedElements, GoBehavioralFeatureToStateMachine, GoStimulusToAction, GoSummaryToOperation, GoTransitiontoEffect, GoClassToNavigableClass, GoStateMachineToState, GoClassToAssociatedClass, GoOperationToSequenceDiagram, GoModelToDiagrams, GoStateToDoActivity, GoModelElementToContainedLostElements, GoModelElementToContainedDiagrams, GoEnumerationToLiterals, GoSignalToReception, GoClassifierToInstance, GoNamespaceToClassifierAndPackage, GoClassifierToStructuralFeature, GoCollaborationToInteraction, GoStateToOutgoingTrans, GoPackageToClass, GoTransitionToTarget, GoClassifierToSequenceDiagram, GoDiagramToNode, GoStateToInternalTrans, AbstractCoreHelperDecorator, GoProjectToModel, GoProjectToDiagram, GoCompositeStateToSubvertex, GoNodeToResidentComponent, GoOperationToCollaborationDiagram, GoInteractionToMessages, GoTransitionToSource, GoSubmachineStateToStateMachine].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          findAssociation[CrNoAssociations].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          canAddEdge[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getInEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          canAddNode[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, ActivityDiagramGraphModel, UseCaseDiagramGraphModel].java
+          vetoableChange[DeploymentDiagramGraphModel, TableModelChecklist, CollabDiagramGraphModel, ClassDiagramGraphModel, FigComment, TableModelCritics, TabTaggedValuesModel, FigNodeModelElement, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel, FigEdgeModelElement].java
+          getFigNodeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, ActivityDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          canConnect[CollabDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getFigNodeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, ActivityDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          canAddNode[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, ActivityDiagramGraphModel, UseCaseDiagramGraphModel].java
+          addNodeRelatedEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, UMLMutableGraphSupport, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          getFigNodeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, ActivityDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          getFigEdgeFor[SequenceDiagramRenderer, StateDiagramRenderer, UmlDiagramRenderer, UseCaseDiagramRenderer, CollabDiagramRenderer, DeploymentDiagramRenderer, ClassDiagramRenderer].java
+          generateVisibility[GeneratorPHP4, GeneratorCSharp, ModelElementNameNotationJava, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, ModelElementNameNotationUml, NotationUtilityUml].java
+          toString[StringNamespaceElement, AttributeNotationJava, OperationNotationJava, FacadeMDRImpl, GoStereotypeToTagDefinition, AttributeNotationUml, OperationNotationUml, Goal, ModelElementNameNotationJava, SuffixFilter, ArgoEvent, StringNamespace, TypeThenNameOrder, FigEdgeNote, NodeInstanceNotationUml, ChecklistStatus, SimpleTimer, UMLComboBoxEntry, PHPDocumentor, AssociationEndNameNotationUml, SourcePathControllerImpl, KnowledgeTypeNode, ExtensionPointNotationUml, GResolution, CheckItem, AbstractPerspectiveRule, Checklist, IncomingDependencyNode, ModelElementNameNotationUml, StateBodyNotationUml, PerspectiveManager, MyLocale, CallStateNotationUml, NotationNameImpl, ToDoList, ItemUID, ToDoItem, InheritanceNode, AssociationRoleNotationUml, PerspectiveSupport, OperationsNode, Designer, OutgoingDependencyNode, ListSet, Language, ArgoDiagram, Critic, CommentEdge, ComponentInstanceNotationUml, ResolvedCritic, ObjectNotationUml, ActionStateNotationUml, ConfigurationKeyImpl, TransitionNotationUml, AssociationsNode, AssociationEndNameNotationJava, Decision, ArgoAny, ExplorerPerspective, MessageNotationUml, ClassifierRoleNotationUml, ObjectFlowStateStateNotationUml, ObjectFlowStateTypeNotationUml, NameOrder, ImportClassLoader, PriorityNode, PredicateMType, AttributesNode].java
+          addOperation[Modeller].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+          generateParameter[GeneratorPHP4, GeneratorCSharp, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, TransitionNotationUml, NotationUtilityUml].java
+          deleteStateVertex[StateMachinesFactoryMDRImpl, UmlFactoryMDRImpl].java
+          generateClass[CodeGenerator].java
+          generateInterface[CodeGenerator].java
+          getDependencies[GoNamespaceToDiagram, GoStereotypeToTagDefinition, GoModelElementToContents, GoGeneralizableElementToSpecialized, GoMessageToAction, GoStateMachineToTransition, GoStateToDownstream, GoModelToElements, GoModelElementToBehavior, GoModelToBaseElements, GoSummaryToOutgoingDependency, GoComponentToResidentModelElement, GoModelElementToComment, GoStateMachineToTop, GoStatemachineToDiagram, GoSummaryToAssociation, GoUseCaseToExtensionPoint, GoStateToEntry, GoSummaryToIncomingDependency, GoClassifierToCollaboration, GoCollaborationToDiagram, GoStateToExit, GoDiagramToEdge, GoAssocRoleToMessages, GoSummaryToAttribute, GoClassToSummary, GoBehavioralFeatureToStateDiagram, GoElementToMachine, GoTransitionToGuard, GoModelToNode, GoStateToIncomingTrans, GoLinkToStimuli, GoModelToCollaboration, GoOperationToCollaboration, GoClassifierToBehavioralFeature, GoProjectToCollaboration, GoSummaryToInheritance, GoProjectToStateMachine, CoreHelperMDRImpl, GoClassifierToStateMachine, GoNamespaceToOwnedElements, GoBehavioralFeatureToStateMachine, GoStimulusToAction, GoSummaryToOperation, GoTransitiontoEffect, GoClassToNavigableClass, GoStateMachineToState, GoClassToAssociatedClass, GoOperationToSequenceDiagram, GoModelToDiagrams, GoStateToDoActivity, GoModelElementToContainedLostElements, GoModelElementToContainedDiagrams, GoEnumerationToLiterals, GoSignalToReception, GoClassifierToInstance, GoNamespaceToClassifierAndPackage, GoClassifierToStructuralFeature, GoCollaborationToInteraction, GoStateToOutgoingTrans, GoPackageToClass, GoTransitionToTarget, GoClassifierToSequenceDiagram, GoDiagramToNode, GoStateToInternalTrans, AbstractCoreHelperDecorator, GoProjectToModel, GoProjectToDiagram, GoCompositeStateToSubvertex, GoNodeToResidentComponent, GoOperationToCollaborationDiagram, GoInteractionToMessages, GoTransitionToSource, GoSubmachineStateToStateMachine].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          predicate[CrUML, PredIsFinalState, Critic, PredIsStartState, PredicateNotInTrash, PredicateFind].java
+          modelChanged[FigConcurrentRegion, FigComment, FigState, FigObjectFlowState, FigSynchState, FigUseCase, FigCompositeState, FigClassifierRole, FigClass, FigCallState, FigSubactivityState, FigSubmachineState, FigAssociationEnd, FigComponent, FigTransition, FigEdgeAssociationClass, FigObject, FigEdgeNote, FigExtend, FigStubState, FigGeneralization, FigPackage, FigInterface, FigEnumeration, FigAbstraction, FigDataType, FigNodeAssociation, FigNodeModelElement, FigMNode, FigEdgeModelElement, FigComponentInstance, FigMNodeInstance, FigAssociation, FigActionState, FigActor, FigStereotypeDeclaration, FigDependency].java
+          getOutEdges[DeploymentDiagramGraphModel, CollabDiagramGraphModel, ClassDiagramGraphModel, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel].java
+          vetoableChange[DeploymentDiagramGraphModel, TableModelChecklist, CollabDiagramGraphModel, ClassDiagramGraphModel, FigComment, TableModelCritics, TabTaggedValuesModel, FigNodeModelElement, StateDiagramGraphModel, SequenceDiagramGraphModel, UseCaseDiagramGraphModel, FigEdgeModelElement].java
+	
+          8
+          8
+          8
+          7
+          7
+          7
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+External Duplication: 51
+          mID[CPPLexer].java
+          statement[JavaRecognizer, CPPParser].java
+          nextToken[MyTokenizer, SimpleByteLexer, JavaLexer, CPPLexer].java
+          mIDENT[JavaLexer].java
+          statement[JavaRecognizer, CPPParser].java
+          nextToken[MyTokenizer, SimpleByteLexer, JavaLexer, CPPLexer].java
+          mIDENT[JavaLexer].java
+          nextToken[MyTokenizer, SimpleByteLexer, JavaLexer, CPPLexer].java
+          mESC[JavaLexer].java
+          mEXPONENT[JavaLexer].java
+          argList[JavaRecognizer].java
+          forIter[JavaRecognizer].java
+          mESC[JavaLexer].java
+          mEXPONENT[JavaLexer].java
+          mExponent[CPPLexer].java
+          forCond[JavaRecognizer].java
+          forIter[JavaRecognizer].java
+          assignmentExpression[JavaRecognizer].java
+          postfixExpression[JavaRecognizer].java
+          primaryExpression[JavaRecognizer].java
+          argList[JavaRecognizer].java
+          getClosestPoint[FigMNodeInstance, FigBranchState, FigComment, FigMNode, FigJunctionState, CubePortFigRect, FigPackage, PackagePortFigRect].java
+          getHandler[FigClassifierRole, PGMLStackParser, FigLifeLine].java
+          getHandler[FigClassifierRole, PGMLStackParser, FigLifeLine].java
+          forCond[JavaRecognizer].java
+          assignmentExpression[JavaRecognizer].java
+          primaryExpression[JavaRecognizer].java
+          generateVisibility[GeneratorPHP4, GeneratorCSharp, ModelElementNameNotationJava, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, ModelElementNameNotationUml, NotationUtilityUml].java
+          conditionalExpression[JavaRecognizer].java
+          relationalExpression[JavaRecognizer].java
+          mouseReleased[ModeCreateAssociationEnd, SelectionRerouteEdge, FigConcurrentRegion, DetailsPane, ToDoPane, FigEdgeModelElement, FigClassifierRole, FindDialog, MultiEditorPane, UMLList2, ModeCreateMessage, UMLMutableLinkedList, FigTextGroup, ModeCreateCommentEdge, UMLLinkMouseListener, TabResults, ModeChangeHeight].java
+          mouseReleased[ModeCreateAssociationEnd, SelectionRerouteEdge, FigConcurrentRegion, DetailsPane, ToDoPane, FigEdgeModelElement, FigClassifierRole, FindDialog, MultiEditorPane, UMLList2, ModeCreateMessage, UMLMutableLinkedList, FigTextGroup, ModeCreateCommentEdge, UMLLinkMouseListener, TabResults, ModeChangeHeight].java
+          generateVisibility[GeneratorPHP4, GeneratorCSharp, ModelElementNameNotationJava, GeneratorCpp, Generator2, GeneratorJava, NotationUtilityJava, ModelElementNameNotationUml, NotationUtilityUml].java
+          conditionalExpression[JavaRecognizer].java
+          relationalExpression[JavaRecognizer].java
+          initializer[JavaRecognizer, CPPParser].java
+          tryBlock[JavaRecognizer].java
+          newExpression[UMLScriptExpressionModel, UMLInitialValueExpressionModel, UMLRecurrenceExpressionModel, UMLTimeExpressionModel, UMLExpressionExpressionModel, UMLConditionExpressionModel, JavaRecognizer, UMLDefaultValueExpressionModel, UMLExpressionModel2, UMLChangeExpressionModel].java
+          newArrayDeclarator[JavaRecognizer].java
+          mHEX_DIGIT[JavaLexer].java
+          mFLOAT_SUFFIX[JavaLexer].java
+          getClosestPoint[FigMNodeInstance, FigBranchState, FigComment, FigMNode, FigJunctionState, CubePortFigRect, FigPackage, PackagePortFigRect].java
+          getClosestPoint[FigMNodeInstance, FigBranchState, FigComment, FigMNode, FigJunctionState, CubePortFigRect, FigPackage, PackagePortFigRect].java
+          initializer[JavaRecognizer, CPPParser].java
+          tryBlock[JavaRecognizer].java
+          newExpression[UMLScriptExpressionModel, UMLInitialValueExpressionModel, UMLRecurrenceExpressionModel, UMLTimeExpressionModel, UMLExpressionExpressionModel, UMLConditionExpressionModel, JavaRecognizer, UMLDefaultValueExpressionModel, UMLExpressionModel2, UMLChangeExpressionModel].java
+          newArrayDeclarator[JavaRecognizer].java
+          mHEX_DIGIT[JavaLexer].java
+          mFLOAT_SUFFIX[JavaLexer].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+          actionPerformed[ActionRevertToSaved, ActionSetTagDefinitionType, ActionFind, ActionCreateArgument, ActionNewSynchState, ActionExportXMI, ActionGenerationSettings, ActionNewStubState, ActionSetModelElementStereotype, ActionNewPseudoState, ActionNewExtensionPoint, ActionAggregation, ActionSetOperationConcurrencyKind, ActionImportXMI, ActionPrint, ActionNewSignal, ActionNotation, ActionSetModelElementNamespace, ActionEdgesDisplay, ActionSaveDiagramToClipboard, ActionNewEntryCallAction, ActionSetGeneralizableElementRoot, ActionPerspectiveConfig, ActionNewTransition, ActionSetTagDefinitionOwner, ActionGoToCritique, ActionAddNote, ActionSetContextStateMachine, ActionNewTagDefinition, ActionRemoveClassifierRoleBase, ActionDeleteAnnotatedElement, TabResults, ActionAddLiteral, ActionProperties, ActionNewSubmachineState, UMLAddDialog, NavigateTargetForwardAction, ActionNew, ActionSetCompositeStateConcurrent, ActionNewStereotype, ActionSetMetaClass, ActionGenerateOne, SettingsDialog, ActionBooleanTaggedValue, ActionPaste, AbstractActionCheckBoxMenuItem, ActionSetGeneralizableElementAbstract, ActionAddTopLevelPackage, ActionSetAssociationRoleBase, CriticBrowserDialog, ActionSetTagDefinitionNamespace, ActionAddStereotype, ActionEmailExpert, MoveUpAction, ActionSetAssociationEndNavigable, ActionGenerateProjectCode, ActionSaveProjectAs, ActionNewActionForMessage, GotoDialog, ActionSetRepresentedOperationCollaboration, ActionCut, ActionSetAssociationEndOrdering, FindDialog, ActionNavigateUpFromDiagram, ActionSetStructuralFeatureType, ActionOpenGoals, ActionProjectSettings, ActionNewInnerClass, ActionSetParameterType, AbstractActionAddModelElement, ActionNewUseCase, ActionNewEvent, ActionNewDiagram, ActionSaveAllGraphics, ActionRemoveContextSignal, AbstractActionRadioMenuItem, RadioAction, ActionGotoDiagram, ActionSetElementOwnershipSpecification, ActionNewSimpleState, ActionSetFeatureOwner, ActionMultiplicity, ActionNewActor, ActionOpenProject, ActionReopenProject, ActionSetStructuralFeatureTargetScope, ActionRESequenceDiagram, ActionAddAllClassesFromModel, ActionNewModelElementConstraint, ActionResolve, ActionSetModelElementVisibility, ActionRemoveTaggedValue, WizStepChoice, ActionNewGuard, ActionSetAssociationEndType, ActionAddDiagram, ActionAddExistingNode, NavigateTargetBackAction, ActionAddConcurrentRegion, ActionSettings, ActionSetSourcePath, ActionAddDataType, ActionSnooze, ExceptionDialog, ActionShowXMLDump, ActionOpenBrowser, ActionImportFromSources, ActionSetSubmachineStateSubmachine, ActionNewUseCaseExtensionPoint, ActionAboutArgoUML, ActionSaveProject, ActionRemoveArgument, ActionLayout, ActionPageSetup, ActionSetFlowSource, ActionSetRepresentedClassifierCollaboration, ActionNewCompositeState, ClassGenerationDialog, ActionSetClassActive, ActionSetActionAsynchronous, ActionSaveConfiguration, ActionNewExtendExtensionPoint, ActionSaveGraphics, ActionSetStubStateReferenceState, ActionAddEnumerationLiteral, ActionNewToDoItem, ActionAddEnumeration, ActionOpenDecisions, ActionSetAssociationEndTargetScope, AddToDoItemDialog, ActionNewFinalState, ActionSetFeatureOwnerScope, MoveDownAction, ActionExit, ActionDeleteConcurrentRegion, EmailExpertDialog, RESequenceDiagramDialog, ActionRemoveModelElement, ActionAddPackage, StylePanel, UMLComboBox2, ActionCopy, ActionNewInterface, ActionNewClass, ActionAutoCritique, ActionAddExtensionPoint, ActionCompartmentDisplay, UMLEditableComboBox, ActionSetChangeability, ActionNewReception, ActionRemoveReceptionSignal, ActionAddOperation, UMLCallEventOperationComboBox2, ActionOpenCritics, ActionAddExistingEdge, ActionRemoveFromDiagram, ActionAddAttribute, ActionSetLinkAssociation, ActionSetObjectFlowStateClassifier, ActionSetBehavioralFeatureQuery, ActionSetParameterDirectionKind, ActionNewClassifierInState, ActionSetMultiplicity, ActionRemovePackageImport, ActionAutoResize, ActionGenerateAll, ActionSetClassifierInStateType, ProjectSettingsDialog, ActionNewArgument, ActionDeleteModelElements, ActionNewParameter, SourcePathDialog, ActionSetGeneralizableElementLeaf, AbstractActionNavigate, ActionSetAssociationEndAggregation, UMLComboBoxNavigator, ActionRemoveCISState, ActionSetGeneralizationPowertype, ActionNavigability, ActionSystemInfo, ActionNewAction, ActionAddMessage, WizStep, TabChecklist].java
+	
+          7
+          7
+          7
+          7
+          7
+          7
+          7
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+          2
+Refused Parent Bequest: 4
+          classFigClassifierRole
+          classFigDataType
+          classFigClass
+          classFigInterface
+	
+          10
+          10
+          10
+          10
+Data Clumps: 37
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          dragHandle[SelectionInterface, SelectionClassifierRole, SelectionNodeInstance, SelectionObject, SelectionComment, SelectionComponent, SelectionDataType, SelectionActionState, SelectionUseCase, SelectionComponentInstance, SelectionMessage, SelectionClass, SelectionState, SelectionStereotype, SelectionNode, SelectionActor].java
+          getHandler[FigClassifierRole, PGMLStackParser, FigLifeLine].java
+          getHandler[FigClassifierRole, PGMLStackParser, FigLifeLine].java
+          methodgetElementHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          getHandler[FigClassifierRole, PGMLStackParser, FigLifeLine].java
+          methodgetElementHandler(HandlerStack stack, Object container, String uri, String localname, String qname, Attributes attributes) : DefaultHandler
+          buildConnection[UmlFactoryMDRImpl, UMLMutableGraphSupport].java
+          buildConnection[UmlFactoryMDRImpl, UMLMutableGraphSupport].java
+          buildConnection[UmlFactoryMDRImpl, UMLMutableGraphSupport].java
+          methodRemoveAssociationEvent(Object source, String propertyName, Object oldValue, Object newValue, Object changedValue, EventObject originalEvent)
+          methodDeleteInstanceEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodAddAssociationEvent(Object source, String propertyName, Object oldValue, Object newValue, Object changedValue, EventObject originalEvent)
+          methodInstanceChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodAssociationChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, Object theChangedValue, EventObject originalEvent)
+          methodAttributeChangeEvent(Object source, String propertyName, Object oldValue, Object newValue, EventObject originalEvent)
+          methodToDoItem(Poster poster, String h, int p, String d, String m, ListSet offs)
+          methodToDoItem(Poster poster, String h, int p, String d, String m)
+          methodUMLToDoItem(Poster poster, String h, int p, String d, String m, ListSet offs)
+          methodUMLToDoItem(Poster poster, String h, int p, String d, String m)
+          methodFigMultiLineText(int x, int y, int w, int h, boolean expandOnly)
+          methodFigSingleLineText(int x, int y, int w, int h, boolean expandOnly)
+          methodFigStereotypeText(int x, int y, int w, int h, boolean expandOnly)
+	
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          5
+          4
+          4
+          4
+          4
+          4
+          3
+          3
+          3
+          2
+          2
+          2
+          2
+          2
+          2
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+Unstable Dependencies: 7
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.kernel
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.ui
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.application.api
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.notation
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.cognitive
+          subsystemsubsystem_ArgoUML (0)/argouml/src_new.org.argouml.uml.diagram.ui
+	
+          4
+          3
+          3
+          2
+          2
+          2
+          2
+Schizophrenic Class: 9
+          classImport
+          classCoreFactoryMDRImpl
+          classStylePanel
+          classModeller
+          classWizStep
+          classStateDiagramGraphModel
+          classFigConcurrentRegion
+          classTableModelClassChecks
+          classTabTaggedValuesModel
+	
+          6
+          3
+          3
+          3
+          1
+          1
+          1
+          1
+          1
+Blob Class: 6
+          classGeneratorCSharp
+          classGeneratorJava
+          classGeneratorPHP4
+          classModeller
+          classProjectBrowser
+          classUseCaseDiagramGraphModel
+	
+          8
+          8
+          7
+          6
+          5
+          2
+Data Class: 5
+          classSimpleCodePiece
+          classEdgeData
+          classLanguage
+          classPropPanelStateVertex
+          classAbstractPropPanelState
+	
+          1
+          1
+          1
+          1
+          1
+Tradition Breaker: 4
+          classDummyModelMemento
+          classFigComment
+          classFigEdgeAssociationClass
+          classPropPanelSubmachineState
+	
+          1
+          1
+          1
+          1
+Shotgun Surgery: 1
+          createDiagram[ActionSequenceDiagram, ActionStateDiagram, DiagramFactory, ActionAddDiagram, GraphChangeAdapter, ActionActivityDiagram, ActionClassDiagram, ActionCollaborationDiagram, ActionNewDiagram, ActionDeploymentDiagram, ActionUseCaseDiagram].java
+	
+          5
+Feature Envy: 3
+          toString[StringNamespaceElement, AttributeNotationJava, OperationNotationJava, FacadeMDRImpl, GoStereotypeToTagDefinition, AttributeNotationUml, OperationNotationUml, Goal, ModelElementNameNotationJava, SuffixFilter, ArgoEvent, StringNamespace, TypeThenNameOrder, FigEdgeNote, NodeInstanceNotationUml, ChecklistStatus, SimpleTimer, UMLComboBoxEntry, PHPDocumentor, AssociationEndNameNotationUml, SourcePathControllerImpl, KnowledgeTypeNode, ExtensionPointNotationUml, GResolution, CheckItem, AbstractPerspectiveRule, Checklist, IncomingDependencyNode, ModelElementNameNotationUml, StateBodyNotationUml, PerspectiveManager, MyLocale, CallStateNotationUml, NotationNameImpl, ToDoList, ItemUID, ToDoItem, InheritanceNode, AssociationRoleNotationUml, PerspectiveSupport, OperationsNode, Designer, OutgoingDependencyNode, ListSet, Language, ArgoDiagram, Critic, CommentEdge, ComponentInstanceNotationUml, ResolvedCritic, ObjectNotationUml, ActionStateNotationUml, ConfigurationKeyImpl, TransitionNotationUml, AssociationsNode, AssociationEndNameNotationJava, Decision, ArgoAny, ExplorerPerspective, MessageNotationUml, ClassifierRoleNotationUml, ObjectFlowStateStateNotationUml, ObjectFlowStateTypeNotationUml, NameOrder, ImportClassLoader, PriorityNode, PredicateMType, AttributesNode].java
+          run[Designer, PreloadClasses, PostLoad, ToDoList, StartCritics, UMLChangeDispatch, DelayedChangeNotify, InitMenusLater, StatusBar, TabResults].java
+          placeNode[ClassdiagramLayouter].java

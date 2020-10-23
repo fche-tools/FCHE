@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="fche &lt;wsz@mails.ccnu.edu.cn&gt;" />
+        <option value="fche" />
+        <option value="wsz" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\LearningFile\projects\FCHE\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jGwqLmWtTyrkWFc0xGG6whZj4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="client.Main" />
+      <module name="FCHE" />
+      <option name="PROGRAM_PARAMETERS" value="java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="" />
+      <created>1603443925146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603443925146</updated>
+      <workItem from="1603443928515" duration="1323000" />
+      <workItem from="1603446638024" duration="872000" />
+      <workItem from="1603447560315" duration="78000" />
+      <workItem from="1603447663198" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="fche">
+      <created>1603446964431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603446964431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fche">
+      <created>1603447453245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603447453245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fche" />
+    <option name="LAST_COMMIT_MESSAGE" value="fche" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603444446477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603444446477" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603444365741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1603444365741" />
+    <state x="372" y="8" key="CommitChangelistDialog2" timestamp="1603447452363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603447452363" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1603447696220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603447696220" />
+    <state x="589" y="308" width="382" height="207" key="Github.CreateGistDialog" timestamp="1603444569941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="589" y="308" width="382" height="207" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1603444569941" />
+    <state x="644" y="303" width="272" height="270" key="Github.ShareDialog" timestamp="1603444910938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="644" y="303" width="272" height="270" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1603444910938" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603446620261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603446620261" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603446620260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603446620260" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603446620259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603446620259" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603446620260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603446620260" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1603447715499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603447715499" />
+    <state x="445" y="116" key="VCS.ChangeListViewerDialog" timestamp="1603446175845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="445" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1603446175845" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603445045127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603445045127" />
+    <state x="578" y="306" key="git4idea.ui.GitResetDialog" timestamp="1603446182269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1603446182269" />
+  </component>
+</project>
