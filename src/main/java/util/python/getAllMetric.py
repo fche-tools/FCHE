@@ -131,11 +131,11 @@ def getChurn(method_metric_path, methodDb, bugIdSet, commitBugKV):
             if line[0] == "id":
                 continue
             methodHistory = 0
-            # stmt添加
-            stmtAdd = 0
-            # stmt删除
-            stmtDel = 0
-            # bug数
+            # added Num
+            addedNum = 0
+            # deleted Num
+            deletedNum = 0
+            # bugNum
             bugNum = 0
             churnNumPerLOC = 0
             deleteNumPerLOC = 0
@@ -168,22 +168,23 @@ def getChurn(method_metric_path, methodDb, bugIdSet, commitBugKV):
                             if commitBugKV[commit][0] in bugIdSet:
                                 bugNum += 1
                             author_set[commitBugKV[commit][1]] = ''
-                            stmtAdd += commitKV[commit][0]
-                            stmtDel += commitKV[commit][1]
+                            addedNum += commitKV[commit][0]
+                            deletedNum += commitKV[commit][1]
 
             if not totalLOC == 0:
-                churnNumPerLOC = stmtAdd / totalLOC
-                deleteNumPerLOC = stmtDel / totalLOC
+                churnNumPerLOC = addedNum / totalLOC
+                deleteNumPerLOC = deletedNum / totalLOC
 
-            if not stmtDel == 0:
-                addPerDel = stmtAdd / stmtDel
+            if not deletedNum == 0:
+                addPerDel = addedNum / deletedNum
             if not methodHistory == 0:
-                numsWorkedOnPerCount = (stmtAdd + stmtDel) / methodHistory
+                numsWorkedOnPerCount = (addedNum + deletedNum) / methodHistory
             metricList.append(paraCount)
             metricList.append(totalLOC)
             metricList.append(methodHistory)
-            metricList.append(stmtAdd)
-            metricList.append(stmtDel)
+            metricList.append(addedNum)
+            metricList.append(deletedNum)
+            metricList.append(addedNum+deletedNum)
             metricList.append(churnNumPerLOC)
             metricList.append(deleteNumPerLOC)
             metricList.append(addPerDel)
@@ -318,18 +319,15 @@ def writeResult(metric_kv, method_metric_kv, history_modify, halstead_metric, wr
     with open(write_path, "w", encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(
-            ["Method name", "CountInput", "CountLine", "CountLineBlank", "CountLineCode", "CountLineCodeDecl",
-             "CountLineCodeExe", "CountLineComment", "CountOutput", "CountPath", "CountStmt", "CountStmtDecl",
-             "CountStmtExe", "Cyclomatic", "MaxNesting", "ParaCount",
-             "halstead_vocabulary", "halstead_length", "halstead_difficulty", "halstead_volume", "halstead_effort",
-             "halstead_bugs",
-             "statementModify", "expressionModify", "commentModify", "returnTypeModify", "parameterModify",
-             "prefixModify",
-             "statementModify/countStmt", "expressionModify/Total LOC", "commentModify/Total LOC",
-             "parameterModify/ParaCount",
-             "Churn count", "Churned num", "DeleteNum", "Churned num/Total LOC", "Deleted num/Total LOC",
-             "Churned num/Deleted num", "Nums worked on/Churn count",
-             "authorNum", "bug-prone"
+            ["Method name", "Fan-in", "Number of all lines", "Number of Blank lines", "Lines of Code", "Number of Declare lines",
+             "Number of Executable lines", "Number of Comment lines", "Fan-out", "Number of Path", "Number of Statements",
+             "Number of Declare Statements","Number of Executable Statements", "Cyclomatic complexity", "MaxNesting", "Number of Parameters",
+             "Halstead-vocabulary", "Halstead-length", "Halstead-difficulty", "Halstead-volume", "Halstead-effort",
+             "Halstead-bugs",
+             "Number of Modified Statements", "Number of Modified Expressions", "Number of Modified Comments","Number of Modified Return type", "Number of Modified Parameters",
+             "Number of Modified Parameters Prefix","statementModify/countStmt", "Number of Modified Expressions/Total LOC", "Number of Modified Comments/Total LOC","Number of Modified Parameters/Number of Parameters",
+             "Number of Changes", "Added LOC", "Delete LOC", "Changed LOC", "Added LOC/Total LOC", "Deleted LOC/Total LOC",
+             "Added LOC/Deleted LOC", "Changed LOC/Number of Changes", "Number of Authors", "bug-prone"
              ])
         for method_name in metric_kv:
 

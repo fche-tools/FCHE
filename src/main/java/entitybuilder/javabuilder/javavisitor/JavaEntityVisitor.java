@@ -88,7 +88,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
         //System.out.println(fileFullPath.substring(fileFullPath.lastIndexOf("src/")+4));
         str = fileFullPath;
         //str = ctx.children.get(1).getText();
-        System.out.println("classname:"+str);
+//        System.out.println("classname:"+str);
 
         //发现implements
         if(ctx.children.size()>3 && ctx.children.get(2).getText().equals("implements")) {
@@ -143,7 +143,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
             RuleContext ctx2;
             //出现错误节点，进行排除
             if(ctx.children.get(i) instanceof ErrorNodeImpl) {
-                System.out.println("错误节点");
+                System.out.println("error node");
                 continue;
             }
             ctx2 = (RuleContext) ctx.children.get(i);
@@ -424,9 +424,8 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
                     }
                 }
             }
-        }
-        else {
-            System.out.println("方法长度过短");
+        } else {
+//            System.out.println("lengths too low");
         }
 
         if (ctx.children.size() == 4) {
@@ -578,7 +577,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
                 }
                 count++;
                 nameWithPara+=' ';
-                System.out.println(nameWithPara);
+//                System.out.println(nameWithPara);
             }
         }
         nameWithPara+=')';
