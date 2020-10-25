@@ -26,7 +26,6 @@ import java.util.Set;
 public class JavaEntityVisitor extends JavaBaseVisitor {
     private String fileFullPath;
     public JavaProcessTask processTask = new JavaProcessTask();
-//    private JavaContextHelper contextHelper = new JavaContextHelper();
     private ClassEntity classEntity = new ClassEntity();
     public JavaEntityVisitor(String fileFullPath){
         this.fileFullPath = fileFullPath;
@@ -34,7 +33,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
     }
 
     /**
-     * 访问import
+     * find import
      * @param ctx
      * @return
      */
@@ -42,13 +41,12 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
     public String visitImportDeclaration(JavaParser.ImportDeclarationContext ctx) {
         String str;
         str = ctx.children.get(1).getText();
-       // System.out.println("importname:"+str);
         classEntity.addToImportList(str);
         return str;
     }
 
     /**
-     * 访问接口interface
+     * find interface
      * @param ctx
      * @return
      */
@@ -63,14 +61,13 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
         int parentId = processTask.processPackage(fileFullPath);
         String name = fileFullPath;
         int id = singleCollect.getCurrentIndex();
-//        System.out.println("interfacename:"+str);
         InterfaceEntity interfaceEntity = new InterfaceEntity(id,name,parentId);
         singleCollect.addEntity(interfaceEntity);
         return str;
     }
 
     /**
-     * 访问Class
+     * find Class
      * @param ctx
      * @return
      */
@@ -85,10 +82,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
         //创建package实体返回id
         int parentId = processTask.processPackage(fileFullPath);
         //包含包名和文件名
-        //System.out.println(fileFullPath.substring(fileFullPath.lastIndexOf("src/")+4));
         str = fileFullPath;
-        //str = ctx.children.get(1).getText();
-//        System.out.println("classname:"+str);
 
         //发现implements
         if(ctx.children.size()>3 && ctx.children.get(2).getText().equals("implements")) {
@@ -117,17 +111,14 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
             e.printStackTrace();
         }
 
-        //创建类实体，添加入singelCollect
-       // ClassEntity classEntity2 = new ClassEntity(parentId,processTask.singleCollect.getCurrentIndex(),classEntity.getName(),classEntity.getVarList(),classEntity.getMethodList());
-
-
+        //创建类实体，添加入singleCollect
         singleCollect.class_method_map.put(classEntity.getName(),classEntity.getMethodList());
         return str;
     }
 
 
     /**
-     * 访问类的body
+     * find class body
      * @param ctx
      * @return
      */
@@ -153,7 +144,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
     }
 
     /**
-     * 访问类的声明
+     * find class declaration
      */
     @Override
     public String visitClassBodyDeclaration(JavaParser.ClassBodyDeclarationContext ctx) {
@@ -185,8 +176,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
                 ctx2 = (RuleContext) ctx.children.get(i);
                 visitFieldDeclaration((JavaParser.FieldDeclarationContext) ctx2);
             }else if(ctx.children.get(i) instanceof JavaParser.ConstructorDeclarationContext){
-               // ctx2 = (RuleContext) ctx.children.get(i);
-               // visitConstructorDeclaration((JavaParser.ConstructorDeclarationContext) ctx2);
+
             }else if(ctx.children.get(i) instanceof JavaParser.MethodDeclarationContext){
                 ctx2 = (RuleContext) ctx.children.get(i);
                 visitMethodDeclaration((JavaParser.MethodDeclarationContext) ctx2);
@@ -197,7 +187,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
     }
 
     /**
-     * 变量实体声明
+     * find var declaration
      * @param ctx
      * @return
      */
@@ -229,7 +219,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
     }
 
     /**
-     * 访问构造函数
+     * find Constructor
      * @param ctx
      * @return
      */
@@ -242,7 +232,11 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
         return str;
     }
 
-    //访问方法
+    /**
+     * find method
+     * @param ctx
+     * @return
+     */
     @Override
     public String visitMethodDeclaration(JavaParser.MethodDeclarationContext ctx)  {
         SingleCollect singleCollect = SingleCollect.getSingleCollectInstance();
@@ -425,7 +419,7 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
                 }
             }
         } else {
-//            System.out.println("lengths too low");
+            // System.out.println("lengths too low");
         }
 
         if (ctx.children.size() == 4) {
@@ -577,7 +571,6 @@ public class JavaEntityVisitor extends JavaBaseVisitor {
                 }
                 count++;
                 nameWithPara+=' ';
-//                System.out.println(nameWithPara);
             }
         }
         nameWithPara+=')';
