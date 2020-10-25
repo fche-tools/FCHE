@@ -24,7 +24,7 @@ public class BuilderIntf {
     private void setVisitor(String fileFullPath) {
 
         if (configure.getLang().equals(Configure.JAVA_LANG)) {
-            if(!fileFullPath.endsWith("_test.java")) {
+            if(!fileFullPath.contains("test") && !fileFullPath.contains("Test")) {
                 visitor = new JavaEntityVisitor(fileFullPath);
             }
         }
