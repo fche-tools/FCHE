@@ -325,8 +325,8 @@ def writeResult(metric_kv, method_metric_kv, history_modify, halstead_metric, wr
              "Halstead-vocabulary", "Halstead-length", "Halstead-difficulty", "Halstead-volume", "Halstead-effort",
              "Halstead-bugs",
              "Number of Modified Statements", "Number of Modified Expressions", "Number of Modified Comments","Number of Modified Return type", "Number of Modified Parameters",
-             "Number of Modified Parameters Prefix","statementModify/countStmt", "Number of Modified Expressions/Total LOC", "Number of Modified Comments/Total LOC","Number of Modified Parameters/Number of Parameters",
-             "Number of Changes", "Added LOC", "Delete LOC", "Changed LOC", "Added LOC/Total LOC", "Deleted LOC/Total LOC",
+             "Number of Modified Prefix", "Number of Modified Statements / Number of Statements", "Number of Modified Expressions/Number of Statements", "Number of Modified Comments/LOC","Number of Modified Parameters/Number of Parameters",
+             "Number of Changes", "Added LOC", "Delete LOC", "Changed LOC", "Added LOC/LOC", "Deleted LOC/LOC",
              "Added LOC/Deleted LOC", "Changed LOC/Number of Changes", "Number of Authors", "bug-prone"
              ])
         for method_name in metric_kv:
@@ -347,7 +347,7 @@ def writeResult(metric_kv, method_metric_kv, history_modify, halstead_metric, wr
             else:
                 historyPerLoc.append(0)
             if total_loc != "0":
-                historyPerLoc.append(historyList[1] / int(total_loc))
+                historyPerLoc.append(historyList[1] / int(statement_count))
             else:
                 historyPerLoc.append(0)
             if total_loc != "0":
