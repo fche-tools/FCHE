@@ -1,8 +1,6 @@
 # FCHE
 
-FCHE (Fine-grained Code Metrics and History Measures Extractor ) is a tool for extraction of fine-grained code metrics and history measures,
-like Number of Parameters, Lines of Code or [Halstead-Metrics](https://en.wikipedia.org/wiki/Halstead_complexity_measures) etc.
-Also, It can integrate some other data obtained through other tools, including data obtained from [understand](https://scitools.com/) or [changedistiller](https://github.com/sealuzh/tools-changedistiller).
+FCHE (Fine-grained Code Metrics and History Measures Extractor ) is a tool for extraction of method—level code metrics and history measures.
 
 # Metrics
 
