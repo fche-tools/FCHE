@@ -1,0 +1,20 @@
+Our source code can be downloaded from Github(https://github.com)
+
+ActiveMQ:5.16.0 https://github.com/apache/activemq
+Avro:1.9.1 https://github.com/apache/avro
+Calcite:1.24.0 https://github.com/apache/calcite
+Camel:2.22.0 https://github.com/apache/camel
+Cassandra:3.11.6 https://github.com/apache/cassandra
+CXF:3.3.7 https://github.com/apache/cxf
+Drill:1.15.0 https://github.com/apache/drill
+Flink:1.8.0 https://github.com/apache/flink
+Flume:1.8.0 https://github.com/apache/flume
+Hbase:3.6.3 https://github.com/apache/hbase
+Ignite:0.94.8 https://github.com/apache/ignite
+Kafka:2.6.0 https://github.com/apache/kafka
+Maven:2.5.1 https://github.com/apache/maven
+Nutch:1.17 https://github.com/apache/nutch
+PDFBox:2.0.20 https://github.com/apache/pdfbox
+Struts:2.5.20 https://github.com/apache/struts
+Wicket:8.8.0 https://github.com/apache/wicket
+Zookeeper:3.5.8 https://github.com/apache/zookeeper
