@@ -2,6 +2,8 @@ package client;
 
 import util.Configure;
 
+import java.io.File;
+
 import static java.lang.System.exit;
 
 public class Main {

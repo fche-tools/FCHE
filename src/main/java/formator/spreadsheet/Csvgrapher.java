@@ -54,7 +54,8 @@ public class Csvgrapher {
     }
     private void processMethodMetrics() {
         methodMetrics.add(new String[] {"id", "name", "paraCount", "lineCount","simpleCc","maxBlockDepth","execStmt","localVarDecl",
-        "halstead_vocabulary","halstead_length","halstead_difficulty","halstead_volume","halstead_effort","halstead_bugs"});
+        "halstead_vocabulary","halstead_length","halstead_difficulty","halstead_volume","halstead_effort","halstead_bugs",
+                "single_operators","single_operands","operators","operands"});
         for (AbsEntity entity : singleCollect.getEntities()) {
             if(entity instanceof MethodEntity) {
                 String id = Integer.toString(entity.getId());
@@ -93,7 +94,8 @@ public class Csvgrapher {
                         String.valueOf(simpleCc), String.valueOf(maxBlockDepth), String.valueOf(execStmt),
                         String.valueOf(localVarDecl),String.valueOf(halstead_vocabulary),String.valueOf(halstead_length),
                         String.valueOf(halstead_difficulty), String.valueOf(halstead_volume),
-                        String.valueOf(halstead_effort),String.valueOf(halstead_bugs)};
+                        String.valueOf(halstead_effort),String.valueOf(halstead_bugs),
+                        String.valueOf(n1),String.valueOf(n2),String.valueOf(N1),String.valueOf(N2)};
                 methodMetrics.add(row);
             }
         }
