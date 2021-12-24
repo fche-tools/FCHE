@@ -2,6 +2,10 @@
 
 FCHE (Fine-grained Code Metrics and History Measures Extractor ) is a tool for extraction of method—level code metrics and history measures.
 
+
+Please see the paper for details: An exploratory study of bug prediction at the method level(Information and Software Technology 144 (2022) 106794
+Available online 7 December 2021 0950-5849/© 2021 Elsevier B.V. All rights reserved.)
+
 # Metrics
 
 ## Method Metric
@@ -82,7 +86,8 @@ before compile the source code,you should set Program arguments:
 - < **understand_output_path** >. A CSV file that can be get by [understand](https://scitools.com/).
 - < **print_mod**>. If print_mod is 1 : the result.csv will be bug-prone or not bug-prone;
  if print_mod is 2 : the result.csv will be bugNum(0,1,2...) .
- 
+
+
 Please **be sure** to use files in the **same** **format** as the **example**, and ensure that they are in the **same order**, otherwise the results may be inaccurate.
 
 #### Example 

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avro-out/avro_methodMetric.csv" beforeDir="false" afterPath="$PROJECT_DIR$/avro-out/avro_methodMetric.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avro-out/avro_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/avro-out/avro_result.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/TemplateWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TemplateWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/python/getAllMetric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/python/getAllMetric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/TemplateWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/TemplateWork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/RunPythonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RunPythonUtil.class" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
     <list id="2c3533ec-9728-4d16-8e40-1ce4c7dc4004" name="Fix readme.md" comment="" />
@@ -114,7 +111,7 @@
       <workItem from="1636264474346" duration="3353000" />
       <workItem from="1636362424020" duration="142000" />
       <workItem from="1640228820699" duration="6319000" />
-      <workItem from="1640316164437" duration="6928000" />
+      <workItem from="1640316164437" duration="8861000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640230149387</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3...">
+      <created>1640330174782</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640330174782</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,10 +239,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640329476222" />
-    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1640330077143">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1640330189222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640330077143" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640330189222" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1640330026916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -279,6 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640331764204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640331764204" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636267543952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
