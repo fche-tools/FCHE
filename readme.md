@@ -70,7 +70,7 @@ you should set up Python3.0 environment.
 
 ###  2)Use 
 before compile the source code,you should set Program arguments:
-< language > < dir > < project-name > < xml_path >  < log_path > < method_change_path > < understand_output_path >
+< language > < dir > < project-name > < xml_path >  < log_path > < method_change_path > < understand_output_path > <print_mod>
 
 
 - < **language** >. Only support Java now.
@@ -80,6 +80,9 @@ before compile the source code,you should set Program arguments:
 - < **log_path** >. A text file that can be get by [git](https://git-scm.com/). 
 - < **method_change_path** >. A CSV file that can be get by [changedistiller](https://github.com/sealuzh/tools-changedistiller).
 - < **understand_output_path** >. A CSV file that can be get by [understand](https://scitools.com/).
+- < **print_mod**>. If print_mod is 1 : the result.csv will be bug-prone or not bug-prone;
+ if print_mod is 2 : the result.csv will be bugNum(0,1,2...) .
+ 
 Please **be sure** to use files in the **same** **format** as the **example**, and ensure that they are in the **same order**, otherwise the results may be inaccurate.
 
 #### Example 

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="">
+    <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avro-out/avro_methodMetric.csv" beforeDir="false" afterPath="$PROJECT_DIR$/avro-out/avro_methodMetric.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avro-out/avro_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/avro-out/avro_result.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/TemplateWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TemplateWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/python/getAllMetric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/python/getAllMetric.py" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
     <list id="2c3533ec-9728-4d16-8e40-1ce4c7dc4004" name="Fix readme.md" comment="" />
@@ -51,7 +56,7 @@
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="client.Main" />
       <module name="FCHE" />
-      <option name="PROGRAM_PARAMETERS" value="java &quot;C:\Users\wsz\Desktop\Group\apache_project_codeAndMetric\source_code\ignite&quot; ignite" />
+      <option name="PROGRAM_PARAMETERS" value="java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +113,8 @@
       <workItem from="1636253394603" duration="4611000" />
       <workItem from="1636264474346" duration="3353000" />
       <workItem from="1636362424020" duration="142000" />
-      <workItem from="1640228820699" duration="1047000" />
+      <workItem from="1640228820699" duration="6319000" />
+      <workItem from="1640316164437" duration="6928000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605939986113</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="revise readme.md">
+      <created>1640230149386</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640230149387</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,37 +222,63 @@
     <MESSAGE value="delete file" />
     <MESSAGE value="add data.zip" />
     <MESSAGE value="add operators operands single_operators single_oprands" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data.zip" />
+    <MESSAGE value="revise readme.md" />
+    <MESSAGE value="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1640228963649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1640228963649" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636362448953">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640329476222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1636362448953" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640329476222" />
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1640330077143">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640330077143" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1640330026916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1640330026916" />
     <state x="604" y="313" key="GitRewordDialog" timestamp="1636267536020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="313" key="GitRewordDialog/0.0.1536.824@0.0.1536.824" timestamp="1636267536020" />
-    <state width="746" height="202" key="GridCell.Tab.0.bottom" timestamp="1636362567178">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1640330077202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636362567178" />
-    <state width="746" height="202" key="GridCell.Tab.0.center" timestamp="1636362567178">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1640330077201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636362567178" />
-    <state width="746" height="202" key="GridCell.Tab.0.left" timestamp="1636362567178">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640330077201" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1640330077201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636362567178" />
-    <state width="746" height="202" key="GridCell.Tab.0.right" timestamp="1636362567178">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640330077201" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1640330077202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636362567178" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1640330077202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1640330077202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1640330077202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1640330077202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1640330077202" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636267543952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

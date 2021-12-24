@@ -121,7 +121,7 @@ def getMethodDb(method_change_path):
 # 导出Method Churn count历史修改次数，Churned num增加修改stmt数，DeleteNum删除stmt数，Churned num/Total LOC， Deleted num/Total LOC Churned num/Deleted num, Nums worked on/Churn count, authorNum, bug-prone
 # metricKV={metricName:[paraCount,totalLOC,Churn count, Churned num, DeleteNum, Churned num/Total LOC,
 # Deleted num/Total LOC, Churned num/Deleted num, Nums worked on/Churn count, authorNum, bug-prone]}
-def getChurn(method_metric_path, methodDb, bugIdSet, commitBugKV):
+def getChurn(method_metric_path, methodDb, bugIdSet, commitBugKV, print_mod):
     # 打开metric.csv
     metricKV = {}
     with open(method_metric_path, "r") as f:
@@ -190,10 +190,11 @@ def getChurn(method_metric_path, methodDb, bugIdSet, commitBugKV):
             metricList.append(addPerDel)
             metricList.append(numsWorkedOnPerCount)
             metricList.append(author_set.__len__())
-            if bugNum != 0:
-                bugNum = "bug-prone"
-            else:
-                bugNum = "not bug-prone"
+            if print_mod == 1 or print_mod == "1":
+                if bugNum != 0:
+                    bugNum = "bug-prone"
+                else:
+                    bugNum = "not bug-prone"
             metricList.append(bugNum)
 
             # 去除不存在历史修改的文件
@@ -367,7 +368,7 @@ def writeResult(metric_kv, method_metric_kv, history_modify, halstead_metric, wr
                             metric_kv[method_name][2:])
 
 # 主函数
-def main(xml_path, log_path, method_change_path, understand_output_path, method_metric_path, write_path):
+def main(xml_path, log_path, method_change_path, understand_output_path, method_metric_path, write_path,print_mod):
 
     bug_id_set = getBugIdSet(xml_path)
 
@@ -375,7 +376,7 @@ def main(xml_path, log_path, method_change_path, understand_output_path, method_
 
     method_db = getMethodDb(method_change_path)
 
-    metric_kv = getChurn(method_metric_path, method_db, bug_id_set, commit_bug_kv)
+    metric_kv = getChurn(method_metric_path, method_db, bug_id_set, commit_bug_kv, print_mod)
 
     method_metric_kv = getMethodMetric(understand_output_path)
 
@@ -396,14 +397,15 @@ if __name__ == '__main__':
     method_metric_path = 'C:\\Users\\wsz\\Desktop\\Teacher\\20.8.15\\metric\\activemq_methodMetric.csv'
     write_path = 'C:\\Users\\wsz\\Desktop\\result.csv'
 
-    if sys.argv.__len__() == 7:
+    if sys.argv.__len__() == 8:
         xml_path = sys.argv[1]
         log_path = sys.argv[2]
         method_change_path = sys.argv[3]
         understand_output_path = sys.argv[4]
         method_metric_path = sys.argv[5]
         write_path = sys.argv[6]
-        sys.exit(main(xml_path, log_path, method_change_path, understand_output_path, method_metric_path, write_path))
+        print_mod = sys.argv[7]
+        sys.exit(main(xml_path, log_path, method_change_path, understand_output_path, method_metric_path, write_path,print_mod))
 
     else:
         print("fail")
