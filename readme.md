@@ -93,8 +93,9 @@ Please **be sure** to use files in the **same** **format** as the **example**, a
 #### Example 
 before run this project, you should **Compile Configurations** and set Program arguments:
 
-java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv
+java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
 
 
 then run the project, you will get avro-out/avro_result.csv in project.
 
+# paper

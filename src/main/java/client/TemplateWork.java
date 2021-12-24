@@ -80,8 +80,12 @@ public class TemplateWork {
         try {
             String resultPath = configure.getAnalyzedProjectName()+"_result.csv";
             String methodMetricPath = configure.getAnalyzedProjectName()+"_methodMetric.csv";
-            if(args.length > 3){
-                RunPythonUtil.run(args[3],args[4],args[5],args[6],methodMetricPath,resultPath,args[7]);
+            if(args.length > 6){
+                String printMod="1";
+                if (args.length>7){
+                    printMod = args[7];
+                }
+                RunPythonUtil.run(args[3],args[4],args[5],args[6],methodMetricPath,resultPath,printMod);
             }
         }catch (Exception e){
             e.printStackTrace();
