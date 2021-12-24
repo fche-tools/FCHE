@@ -99,3 +99,29 @@ java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro
 then run the project, you will get avro-out/avro_result.csv in project.
 
 # paper
+the related data of our paper
+
+## data/paper
+Cal80Bug.java 
+The file is used to calculate top 80% bug method num(the num of method that cause 80% bugs in all methods)
+
+CalBugNum.java
+The file is used to calculate bug-prone method num, bug-prone code line, not bug-prone method num, not bug-prone codeline.
+It is also used to calculate the code line range of all methods(1-10 , 11-25, 26-50, 50+ lines).
+
+## source_code/source_code.txt
+The download link of our source code.
+
+## bug_repository.zip
+The data that can be down load in version management platform [JIRA](https://www.atlassian.com/software/jira).
+
+## change_metric.zip
+The data that can be get by [changedistiller](https://github.com/sealuzh/tools-changedistiller).
+
+## revision_history.zip
+The data that can be get by [git](https://git-scm.com/).
+
+We use the command line "git log --numstat" to get.
+
+## understand_output.zip
+The data that can be get by [understand](https://scitools.com/).
