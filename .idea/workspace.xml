@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add the discuss 4.5,4.6,4.7 process">
+    <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add our paper data message in readme.md">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
     <list id="2c3533ec-9728-4d16-8e40-1ce4c7dc4004" name="Fix readme.md" comment="" />
@@ -48,7 +48,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,7 +118,8 @@
       <workItem from="1636362424020" duration="142000" />
       <workItem from="1640228820699" duration="6319000" />
       <workItem from="1640316164437" duration="11096000" />
-      <workItem from="1640334704242" duration="909000" />
+      <workItem from="1640334704242" duration="1625000" />
+      <workItem from="1640588813698" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640334236162</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add our paper data message in readme.md">
+      <created>1640335678911</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1640335678911</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +259,8 @@
     <MESSAGE value="add print mod:&#10;1: print bug-prone or not bug-prone&#10;2: print 0,1,2,3..." />
     <MESSAGE value="fix readme.md" />
     <MESSAGE value="add the discuss 4.5,4.6,4.7 process" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the discuss 4.5,4.6,4.7 process" />
+    <MESSAGE value="add our paper data message in readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add our paper data message in readme.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1640228963649">
@@ -262,10 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640329476222" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1640334240896">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1640589525429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640334240896" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640589525429" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1640330026916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,14 +315,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1640334257153" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1640332823747">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1640589584156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1640332823747" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640334249334">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1640589584156" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640335729925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640334249334" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640335729925" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636267543952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
