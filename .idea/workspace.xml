@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add our paper data message in readme.md">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_ch.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/paper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -52,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LearningFile\projects\FCHE" />
       <recent name="D:\LearningFile\projects\FCHE\data\paper" />
     </key>
   </component>
@@ -119,7 +120,7 @@
       <workItem from="1640228820699" duration="6319000" />
       <workItem from="1640316164437" duration="11096000" />
       <workItem from="1640334704242" duration="1625000" />
-      <workItem from="1640588813698" duration="1179000" />
+      <workItem from="1640588813698" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>
@@ -267,10 +268,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1640228963649" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640329476222">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640594324320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640329476222" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640594324320" />
     <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1640589525429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,10 +320,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1640589584156" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640335729925">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640590092589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640335729925" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640590092589" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636267543952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
