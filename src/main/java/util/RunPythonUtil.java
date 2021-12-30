@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 
 public final class RunPythonUtil {
-    public static String file = System.getProperty("user.dir")+"\\src\\main\\java\\util\\python\\getAllMetric.py";
+    public static String file = RunPythonUtil.class.getResource("")+"python\\getAllMetric.py";
 
     public static void run(String xmlPath, String logPath, String methodChangePath, String understandOutputPath,
                            String methodMetricPath, String writePath, String printMod) throws IOException {

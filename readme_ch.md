@@ -3,7 +3,7 @@
 FCHE (Fine-grained Code Metrics and History Measures Extractor ) 一个用于解析方法级别代码度量和历史信息的工具。
 
 
-请查看论文获取更详细的信息: An exploratory study of bug prediction at the method level(Information and Software Technology 144 (2022) 106794
+详情请查看论文: An exploratory study of bug prediction at the method level(Information and Software Technology 144 (2022) 106794
 Available online 7 December 2021 0950-5849/© 2021 Elsevier B.V. All rights reserved.)
 
 # Metrics
@@ -12,57 +12,57 @@ Available online 7 December 2021 0950-5849/© 2021 Elsevier B.V. All rights rese
 
 | Method Metric                   | Description                                                  |
 | :------------------------------ | ------------------------------------------------------------ |
-| Lines of Code                   | 代码行数 (LOC)                |
-| Number of Comment lines         | 评论行数                          |
-| Number of all lines             | 所有行数                             |
-| Number of Blank lines           | 空行数                      |
-| Number of Declare lines         | 声明语句行数         |
-| Number of Executable lines      | 可执行语句行数         |
-| Number of Parameters            | 参数的个数                          |
-| Number of Statements            | 语句块的个数                         |
-| Number of Declare Statements    | 声明语句块个数             |
-| Number of Executable Statements | 可执行语句块个数                |
-| Halstead-Vocabulary             | 操作符种类(η1) 和 操作数种类(η2)的个数和.(η = η1+η2) |
-| Halstead-Length                 | 操作符总数(N1) 和 操作数总数(N2)的和.(N = N1+N2)   |
+| Lines of Code                   | Number of lines containing source code. (LOC)                |
+| Number of Comment lines         | Number of lines containing comment.                          |
+| Number of all lines             | Number of all lines in a method.                             |
+| Number of Blank lines           | Number of all blank lines in a method.                       |
+| Number of Declare lines         | Number of lines containing declarative source code.          |
+| Number of Executable lines      | Number of lines containing executable source code.           |
+| Number of Parameters            | Number of parameters in a method.                            |
+| Number of Statements            | Numbera of statements in a method.                           |
+| Number of Declare Statements    | Number of declarative statements in a method.                |
+| Number of Executable Statements | Number of executable statements in a method.                 |
+| Halstead-Vocabulary             | Sum of **distinct** of operators(η1) and oprands(η2).(η = η1+η2) |
+| Halstead-Length                 | Sum of number of operators(N1) and oprands(N2).(N = N1+N2)   |
 | Halstead-Difficulty             | D = η1/2 * N2/η2                                             |
 | Halstead-Volume                 | V = N * log2(η)                                              |
 | Halstead-Effort                 | effort = D * V                                               |
 | Halstead-Bugs                   | bugs = E^(2/3) / 3000                                        |
-| Cyclomatic complexity           | 方法的圈复杂的                           |
-| Number of Path                  | 可能的路径数                                    |
-| Max Nesting                     | 最大嵌套层级数                |
-| Fan-in                          | 扇入    |
-| Fan -out                        | 扇出     |
+| Cyclomatic complexity           | Cyclomatic complexity of a method.                           |
+| Number of Path                  | Number of possible paths.                                    |
+| Max Nesting                     | Maximum nesting level of control constructs.                 |
+| Fan-in                          | Number of calling subprograms plus global variables read.    |
+| Fan -out                        | Number of called subprograms plus global variables set.      |
 
 ## History Metric
 
 | History Metric                                        | Description                                                  |
 | ----------------------------------------------------- | ------------------------------------------------------------ |
-| Added LOC                                             | 历史修改添加行数     |
-| Deleted LOC                                           | 历史修改扇出行数    |
-| All Changed LOC                                       | 增加和修改的行数和                           |
-| Number of Changes                                     | bug导致的历史提交总数                        |
-| Number of Authors                                     | 参与修改的成员数 |
-| Number of Modified Statements                         | 语句的增加、删除、修改、顺序改变数之和  |
-| Number of Modified Expressions                        | if while 等控制语句的增、删 |
-| Number of Modified Comments                           | 评论语句的增、删、改、移动 |
-| Number of Modified Return type                        | 返回类型的增、删、改 |
-| Number of Modified Parameters                         | 参数的增、删、重命名、类型修改、顺序修改  |
-| Number of Modified Prefix                             | 方法名前的访问修饰等的修改（例如 final, static, public） |
-| Added LOC / LOC                                       | Added LOC 和 LOC 之比                             |
-| Deleted LOC / LOC                                     | Deleted LOC 和 LOC 之比                          |
-| Added LOC / Deleted LOC                               | Added LOC 和 Deleted LOC 之比                   |
-| Changed LOC / Number of Changes                       | Changed LOC 和 Number of Changes 之比            |
-| Number of Modified Statements / Number of Statements  | Number of Modified Statements 和 Number of Statements 之比 |
-| Number of Modified Expressions / Number of Statements | Number of Modified Expressions 和 Number of Statements 之比 |
-| Number of Modified Comments/ LOC                      | Number of Modified Comments 和 LOC 之比            |
-| Number of Modified Parameters/ Number of Parameters   | Number of Modified Parameters 和 Number of Parameters 之比 |
+| Added LOC                                             | Total number of lines added in historical modification.      |
+| Deleted LOC                                           | Total number of lines deleted in historical modification.    |
+| All Changed LOC                                       | Sum of Added LOC and Deleted LOC.                            |
+| Number of Changes                                     | Number of commits due to bug fixing.                         |
+| Number of Authors                                     | Number of authors who participated in modifying the bug fixing of a method. |
+| Number of Modified Statements                         | The total number of statement additions, deletions, modifications, and sequence changes. |
+| Number of Modified Expressions                        | Number of conditional change, deletion, insertion in if, while, etc. expressions. |
+| Number of Modified Comments                           | Total number of comments added, deleted, modified, and moved. |
+| Number of Modified Return type                        | Total number of additions, deletions, and changes of Return type. |
+| Number of Modified Parameters                         | Total number of parameter additions, deletions, renamings, type changes, and order changes. |
+| Number of Modified Prefix                             | Total number of changes of prefix information such as final, static, public. |
+| Added LOC / LOC                                       | The ratio of Added LOC and LOC.                              |
+| Deleted LOC / LOC                                     | The ratio of Deleted LOC and LOC.                            |
+| Added LOC / Deleted LOC                               | The ratio of Added LOC and Deleted LOC.                      |
+| Changed LOC / Number of Changes                       | The ratio of Changed LOC and Number of Changes.              |
+| Number of Modified Statements / Number of Statements  | The ratio of Number of Modified Statements and Number of Statements. |
+| Number of Modified Expressions / Number of Statements | The ratio of Number of Modified Expressions and Number of Statements. |
+| Number of Modified Comments/ LOC                      | The ratio of Number of Modified Comments and LOC.            |
+| Number of Modified Parameters/ Number of Parameters   | The ratio of Number of Modified Parameters and Number of Parameters. |
 
 
 
 # Features
 
-FCHE 目前支持java语言的分析
+FCHE 目前支持仅java代码的分析
 
 
 # Usage
@@ -89,12 +89,12 @@ FCHE 目前支持java语言的分析
 请确保**格式**以及**数据的顺序**与example中保持一致，否则结果可能不准确。
 
 #### Example 
-在运行程序前, 你需要设置项目的参数（以Idea为例需要进入：Run-Edit Configurations-Program arguments，然后输入以下8个参数）:
+
 
 java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
 
 
-然后编译运行项目，就可在项目中得到结果 avro-out/avro_result.csv
+就可在项目中得到结果 avro-out/avro_methodMetric.csv
 
 # paper
 论文中涉及的相关数据、以及过程的介绍
