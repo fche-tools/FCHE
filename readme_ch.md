@@ -62,20 +62,19 @@ Available online 7 December 2021 0950-5849/© 2021 Elsevier B.V. All rights rese
 
 # Features
 
-FCHE 目前支持仅java代码的分析
+FCHE 目前仅支持java代码的分析
 
 
 # Usage
-
 ###  1) Set up Java environment and Python environment
+
 需要java1.8的环境支持(jdk1.8)
 需要python3.0的环境支持.
 
 ###  2)Use 
-编译运行前需要设置的项目参数:
-< language > < dir > < project-name > < xml_path >  < log_path > < method_change_path > < understand_output_path > <print_mod>
 
-
+运行前需要准备以下各种文件：
+并确保**格式**以及**数据的顺序**与example中保持一致，否则结果可能不准确。
 - < **language** >. 目前支持java
 - < **dir** >. 需要分析的原文件的路径
 - < **project-name** >. 简短的项目别名  
@@ -86,38 +85,48 @@ FCHE 目前支持仅java代码的分析
 - < **print_mod**>. 两种可选导出模式（模式1 : 结果显示 bug-prone 或者 not bug-prone;
  模式2 : 结果显示具体bug数(0,1,2...)
 
-请确保**格式**以及**数据的顺序**与example中保持一致，否则结果可能不准确。
-
+然后通过command进入out/artifacts/FCHE_jar/目录下
 #### Example 
 
+进入FCHE_jar目录 使用命令：
+java -jar FCHE.jar java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
+可获得bug-prone结果为bug-prone或not bug-prone类型的result
 
-java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
-
-
-就可在项目中得到结果 avro-out/avro_methodMetric.csv
+java -jar FCHE.jar java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 2
+可获得bug-prone结果为1,2,3...类型的result
 
 # paper
+
 论文中涉及的相关数据、以及过程的介绍
 
 ## data/paper
-Cal80Bug.java 
-这个文件可用于计算前80%的bug方法数（对应论文 discuss 4.6 的 Figure2 相关数据）
-CalBugNum.java
-这个文件用于计算bug-prone方法数、行数，not bug-prone方法数、行数；以及行数处于各个范围(1-10 , 11-25, 26-50, 50+ )的方法个数。（对应discuss 4.5 的 Table 16 和 discuss 4.7 的 Table 17）
+
+Cal80Bug.jar
+这个jar文件可用于计算前80%的bug方法数（对应论文中 discuss 4.6 的 Figure2 相关数据）
+cd进入paper目录，使用命令 java -jar Cal80Bug.jar ../avro-out/avro_result2.csv
+
+CalBugNum.jar
+这个jar文件可用于计算bug-prone方法数、行数，not bug-prone方法数、行数；以及行数处于各个范围(1-10 , 11-25, 26-50, 50+ )的方法个数。（对应论文中discuss 4.5 的 Table 16 和 discuss 4.7 的 Table 17）
+cd进入paper目录，使用命令 java -jar Cal80Bug.jar ../avro-out/avro_result1.csv
 
 ## source_code/source_code.txt
+
 源代码的下载路径
 
 ## bug_repository.zip
+
 从 [JIRA](https://www.atlassian.com/software/jira)平台下载的xml数据
 
 ## change_metric.zip
+
 通过 [changedistiller](https://github.com/sealuzh/tools-changedistiller)解析的数据
 
 ## revision_history.zip
+
 通过 [git](https://git-scm.com/)获得的数据
 
 使用 "git log --numstat" 命令得到
 
 ## understand_output.zip
+
 通过 [understand](https://scitools.com/) 解析获得的数据
