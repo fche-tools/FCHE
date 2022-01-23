@@ -8,12 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add our paper data message in readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme_ch.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme_ch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ClassPathResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ClassPathResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RunPythonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/paper/Cal80Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/paper/Cal80Bug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/paper/CalBugNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/paper/CalBugNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RunPythonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RunPythonUtil.class" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
     <list id="2c3533ec-9728-4d16-8e40-1ce4c7dc4004" name="Fix readme.md" comment="" />
@@ -227,7 +221,7 @@
       <workItem from="1640841642790" duration="960000" />
       <workItem from="1640842677458" duration="18073000" />
       <workItem from="1642851084729" duration="1724000" />
-      <workItem from="1642930277723" duration="1168000" />
+      <workItem from="1642930277723" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>

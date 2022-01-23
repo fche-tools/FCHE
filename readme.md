@@ -91,12 +91,10 @@ before compile the source code,you should set Program arguments:
 Please **be sure** to use files in the **same** **format** as the **example**, and ensure that they are in the **same order**, otherwise the results may be inaccurate.
 
 #### Example 
-before run this project, you should **Compile Configurations** and set Program arguments:
-
-java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
-
-
-then run the project, you will get avro-out/avro_result.csv in project.
+You need to go to a directory out/artifacts/FCHE_jar/ by using the command line: cd out/artifacts/FCHE_jar/ 
+then use the command line:
+java -jar FCHE.jar java example/avro avro input/avroSearchRequest.xml input/avro_log.txt input/avro_methodChange.csv input/avro_understand.csv 1
+to get the result.
 
 # paper
 the related data of our paper
