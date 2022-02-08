@@ -90,6 +90,8 @@ before compile the source code,you should set Program arguments:
 
 Please **be sure** to use files in the **same** **format** as the **example**, and ensure that they are in the **same order**, otherwise the results may be inaccurate.
 
+And promise the project in an english file path 
+
 #### Example 
 You need to go to a directory out/artifacts/FCHE_jar/ by using the command line: cd out/artifacts/FCHE_jar/ 
 then use the command line:

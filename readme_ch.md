@@ -69,7 +69,7 @@ FCHE 目前仅支持java代码的分析
 ###  1) Set up Java environment and Python environment
 
 需要java1.8的环境支持(jdk1.8)
-需要python3.0的环境支持.
+需要python3.8.3的环境支持.
 
 ###  2)Use 
 
@@ -86,6 +86,7 @@ FCHE 目前仅支持java代码的分析
  模式2 : 结果显示具体bug数(0,1,2...)
 
 然后通过command进入out/artifacts/FCHE_jar/目录下
+注意保证全英文路径
 #### Example 
 
 进入FCHE_jar目录 使用命令：

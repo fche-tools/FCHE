@@ -14,10 +14,9 @@ public final class RunPythonUtil {
     public static void run(String xmlPath, String logPath, String methodChangePath, String understandOutputPath,
                            String methodMetricPath, String writePath, String printMod) throws IOException {
 
-        System.out.println("文件路径："+file);
         if(!new File(file).isFile()){
-            file = "python\\getAllMetric.py";
             System.out.println("not found："+file);
+            file = "python\\getAllMetric.py";
             if(!new File(file).isFile()){
                 System.out.println("not found:"+file);
             }else{
