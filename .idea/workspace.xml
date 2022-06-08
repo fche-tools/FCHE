@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f78a312-f96a-4868-b957-0637842bb765" name="Default Changelist" comment="add our paper data message in readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bug_repository.zip.001" beforeDir="false" afterPath="$PROJECT_DIR$/data/bug_repository.zip.001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bug_repository.zip.002" beforeDir="false" afterPath="$PROJECT_DIR$/data/bug_repository.zip.002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/change_metric.zip.001" beforeDir="false" afterPath="$PROJECT_DIR$/data/change_metric.zip.001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/revision_history.zip.001" beforeDir="false" afterPath="$PROJECT_DIR$/data/revision_history.zip.001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/understand_output.zip.001" beforeDir="false" afterPath="$PROJECT_DIR$/data/understand_output.zip.001" afterDir="false" />
     </list>
     <list id="fe00834f-d3da-4700-8924-f548faf35baf" name="add data.zip" comment="" />
     <list id="2c3533ec-9728-4d16-8e40-1ce4c7dc4004" name="Fix readme.md" comment="" />
@@ -231,7 +226,8 @@
       <workItem from="1646380929801" duration="541000" />
       <workItem from="1648546571648" duration="696000" />
       <workItem from="1654567423227" duration="2308000" />
-      <workItem from="1654617521508" duration="1208000" />
+      <workItem from="1654617521508" duration="3049000" />
+      <workItem from="1654704227246" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="fche">
       <created>1603446964431</created>
@@ -375,10 +371,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add our paper data message in readme.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654618541155">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654654458656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654618541155" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654654458656" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
